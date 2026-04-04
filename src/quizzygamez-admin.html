@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuizzyGamez Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f8f7ff;--surface:#fff;--surface2:#f0effe;
+  --border:rgba(91,79,245,0.12);--border2:rgba(91,79,245,0.22);
+  --txt:#18162e;--txt2:#5a567a;--txt3:#9896b8;
+  --accent:#5b4ff5;--accent2:#7c6ff7;--accent-light:#ede9ff;
+  --teal:#1ab88c;--teal-light:#e8faf5;
+  --red:#e24b4a;--red-light:#fce8e8;
+  --gold:#f5a623;--gold-light:#fef3dc;
+  --green:#22c55e;--green-light:#dcfce7;
+  --shadow:0 2px 16px rgba(91,79,245,0.08);
+  --shadow2:0 8px 32px rgba(91,79,245,0.14);
+  --radius:14px;--radius-sm:8px;
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;}
+
+/* ── LOGIN ── */
+#login-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--accent) 0%,#8b6ff7 100%);padding:20px;}
+.login-card{background:#fff;border-radius:24px;padding:40px 36px;text-align:center;max-width:380px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,0.15);}
+.login-icon{font-size:48px;margin-bottom:16px;}
+.login-card h2{font-family:'Bricolage Grotesque',sans-serif;font-size:24px;font-weight:700;color:var(--txt);margin-bottom:6px;}
+.login-card p{font-size:14px;color:var(--txt2);margin-bottom:28px;line-height:1.6;}
+.login-input{width:100%;padding:12px 16px;border:1px solid var(--border2);border-radius:10px;font-size:14px;font-family:'Inter',sans-serif;outline:none;margin-bottom:12px;transition:border-color .2s;}
+.login-input:focus{border-color:var(--accent);}
+.btn-primary{width:100%;padding:13px;background:var(--accent);color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:all .2s;}
+.btn-primary:hover{background:#4a3ee0;}
+.login-note{font-size:11px;color:var(--txt3);margin-top:14px;line-height:1.5;}
+.login-error{background:var(--red-light);color:var(--red);border-radius:8px;padding:10px 14px;font-size:13px;margin-top:12px;display:none;}
+
+/* ── APP ── */
+#app-screen{display:none;}
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);height:60px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;}
+.topbar-logo{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:18px;color:var(--txt);display:flex;align-items:center;gap:8px;}
+.topbar-logo span{font-size:11px;background:var(--accent-light);color:var(--accent);padding:2px 7px;border-radius:999px;font-weight:600;letter-spacing:.4px;}
+.topbar-right{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--txt2);}
+.btn-logout{background:none;border:1px solid var(--border2);border-radius:8px;padding:6px 12px;font-size:12px;color:var(--txt2);cursor:pointer;font-family:'Inter',sans-serif;transition:all .2s;}
+.btn-logout:hover{border-color:var(--red);color:var(--red);}
+
+/* ── LAYOUT ── */
+.layout{display:flex;min-height:calc(100vh - 60px);}
+.sidebar{width:200px;background:var(--surface);border-right:1px solid var(--border);padding:16px 0;flex-shrink:0;}
+.nav-item{display:flex;align-items:center;gap:9px;padding:10px 18px;font-size:14px;font-weight:500;color:var(--txt2);cursor:pointer;border-left:3px solid transparent;transition:all .15s;}
+.nav-item:hover{background:var(--surface2);color:var(--txt);}
+.nav-item.active{color:var(--accent);border-left-color:var(--accent);background:var(--accent-light);}
+.nav-icon{font-size:16px;width:18px;text-align:center;}
+.nav-sep{height:1px;background:var(--border);margin:8px 14px;}
+.main{flex:1;overflow-y:auto;padding:28px;}
+.view{display:none;}.view.active{display:block;}
+
+/* ── CARDS ── */
+.stats-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:28px;}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;box-shadow:var(--shadow);}
+.stat-label{font-size:11px;color:var(--txt2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+.stat-value{font-family:'Bricolage Grotesque',sans-serif;font-size:28px;font-weight:700;color:var(--txt);}
+.stat-sub{font-size:11px;color:var(--txt3);margin-top:3px;}
+
+/* ── SECTION HEADER ── */
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:10px;}
+.section-title{font-family:'Bricolage Grotesque',sans-serif;font-size:20px;font-weight:700;color:var(--txt);}
+
+/* ── BUTTONS ── */
+.btn{padding:9px 16px;border-radius:var(--radius-sm);font-size:13px;font-weight:600;cursor:pointer;border:none;font-family:'Inter',sans-serif;transition:all .15s;}
+.btn:active{transform:scale(.97);}
+.btn-accent{background:var(--accent);color:#fff;}
+.btn-accent:hover{background:#4a3ee0;}
+.btn-outline{background:var(--surface);color:var(--txt);border:1px solid var(--border2);}
+.btn-outline:hover{background:var(--surface2);}
+.btn-danger{background:var(--red-light);color:var(--red);border:1px solid var(--red);}
+.btn-danger:hover{background:var(--red);color:#fff;}
+.btn-sm{padding:6px 11px;font-size:12px;}
+.btn-group{display:flex;gap:8px;flex-wrap:wrap;}
+
+/* ── GAMES LIST ── */
+.games-list{display:flex;flex-direction:column;gap:12px;}
+.game-row{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 20px;display:flex;align-items:center;gap:16px;
+  box-shadow:var(--shadow);transition:box-shadow .2s;
+}
+.game-row:hover{box-shadow:var(--shadow2);}
+.game-row-icon{
+  width:48px;height:48px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:24px;flex-shrink:0;
+}
+.game-row-info{flex:1;min-width:0;}
+.game-row-name{font-family:'Bricolage Grotesque',sans-serif;font-size:17px;font-weight:700;color:var(--txt);}
+.game-row-desc{font-size:13px;color:var(--txt2);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.game-row-meta{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap;}
+.game-badge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;}
+.badge-live{background:var(--green-light);color:#15803d;}
+.badge-soon{background:#f3f4f6;color:#6b7280;}
+.badge-planned{background:var(--gold-light);color:#92400e;}
+.badge-archived{background:var(--red-light);color:var(--red);}
+.game-row-actions{display:flex;gap:8px;flex-shrink:0;}
+
+/* ── FORM ── */
+.form-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.form-field{display:flex;flex-direction:column;gap:5px;}
+.form-field.full{grid-column:1/-1;}
+label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:var(--txt2);}
+label .hint{font-size:11px;font-weight:400;color:var(--txt3);text-transform:none;letter-spacing:0;}
+input,select,textarea{
+  width:100%;padding:10px 12px;border:1px solid var(--border2);
+  border-radius:var(--radius-sm);background:var(--bg);color:var(--txt);
+  font-size:14px;font-family:'Inter',sans-serif;outline:none;
+  transition:border-color .15s;
+}
+input:focus,select:focus,textarea:focus{border-color:var(--accent);}
+textarea{resize:vertical;min-height:80px;line-height:1.5;}
+
+/* ── TOAST ── */
+.toast-wrap{position:fixed;bottom:24px;right:24px;display:flex;flex-direction:column;gap:8px;z-index:999;}
+.toast{background:var(--txt);color:#fff;padding:10px 18px;border-radius:999px;font-size:13px;font-weight:600;animation:toastIn .25s ease;}
+.toast.ok{background:var(--teal);}
+.toast.err{background:var(--red);}
+@keyframes toastIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* preview card */
+.preview-card{
+  border-radius:16px;overflow:hidden;border:1px solid var(--border);
+  max-width:260px;box-shadow:var(--shadow);
+}
+.preview-header{height:110px;display:flex;align-items:center;justify-content:center;font-size:44px;}
+.preview-body{padding:14px 16px;background:var(--surface);}
+.preview-name{font-family:'Bricolage Grotesque',sans-serif;font-size:16px;font-weight:700;color:var(--txt);}
+.preview-desc{font-size:12px;color:var(--txt2);margin-top:3px;line-height:1.4;}
+
+/* ── MODAL ── */
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(24,22,46,0.5);backdrop-filter:blur(6px);z-index:200;align-items:center;justify-content:center;}
+.modal-bg.open{display:flex;}
+.modal{background:var(--surface);border-radius:20px;padding:28px;width:min(560px,95vw);max-height:90vh;overflow-y:auto;box-shadow:var(--shadow2);position:relative;}
+.modal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;}
+.modal-title{font-family:'Bricolage Grotesque',sans-serif;font-size:20px;font-weight:700;color:var(--txt);}
+.modal-close{background:var(--surface2);border:none;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:16px;color:var(--txt2);display:flex;align-items:center;justify-content:center;}
+
+/* responsive */
+@media(max-width:640px){
+  .sidebar{display:none;}
+  .main{padding:16px;}
+  .form-grid{grid-template-columns:1fr;}
+  .form-field.full{grid-column:1;}
+  .stats-row{grid-template-columns:1fr 1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- ── LOGIN ── -->
+<div id="login-screen">
+  <div class="login-card">
+    <div class="login-icon">🔐</div>
+    <h2>QuizzyGamez Admin</h2>
+    <p>Painel de administração da plataforma. Acesso restrito.</p>
+    <input class="login-input" type="password" id="admin-secret" placeholder="Admin secret key" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="btn-primary" onclick="doLogin()">Entrar</button>
+    <div class="login-error" id="login-error">⛔ Chave inválida</div>
+    <div class="login-note">🔒 Use a ADMIN_SECRET configurada no Railway</div>
+  </div>
+</div>
+
+<!-- ── APP ── -->
+<div id="app-screen">
+  <div class="topbar">
+    <div class="topbar-logo">🎮 QuizzyGamez <span>Admin</span></div>
+    <div class="topbar-right">
+      <span id="api-status">⏳ Verificando...</span>
+      <button class="btn-logout" onclick="logout()">Sair</button>
+    </div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="nav-item active" id="nav-dashboard" onclick="showView('dashboard')"><span class="nav-icon">📊</span>Dashboard</div>
+      <div class="nav-item" id="nav-games" onclick="showView('games')"><span class="nav-icon">🎮</span>Jogos</div>
+      <div class="nav-item" id="nav-new-game" onclick="showView('new-game')"><span class="nav-icon">➕</span>Novo jogo</div>
+      <div class="nav-sep"></div>
+      <div class="nav-item" id="nav-users" onclick="showView('users')"><span class="nav-icon">👥</span>Jogadores</div>
+    </div>
+    <div class="main">
+
+      <!-- DASHBOARD -->
+      <div class="view active" id="view-dashboard">
+        <div class="section-header">
+          <div class="section-title">Dashboard</div>
+          <button class="btn btn-outline" onclick="loadDashboard()">🔄 Atualizar</button>
+        </div>
+        <div class="stats-row" id="dash-stats">
+          <div class="stat-card"><div class="stat-label">Jogos</div><div class="stat-value" id="d-games">—</div></div>
+          <div class="stat-card"><div class="stat-label">Perguntas</div><div class="stat-value" id="d-questions">—</div></div>
+          <div class="stat-card"><div class="stat-label">Jogadores</div><div class="stat-value" id="d-players">—</div></div>
+          <div class="stat-card"><div class="stat-label">Jogos ativos</div><div class="stat-value" id="d-live">—</div></div>
+        </div>
+        <div class="section-title" style="font-size:16px;margin-bottom:14px">Por jogo</div>
+        <div id="dash-by-game"></div>
+      </div>
+
+      <!-- JOGOS -->
+      <div class="view" id="view-games">
+        <div class="section-header">
+          <div class="section-title">Jogos da plataforma</div>
+          <button class="btn btn-accent" onclick="showView('new-game')">+ Novo jogo</button>
+        </div>
+        <div class="games-list" id="games-list">
+          <div style="color:var(--txt3);padding:20px">Carregando...</div>
+        </div>
+      </div>
+
+      <!-- NOVO JOGO -->
+      <div class="view" id="view-new-game">
+        <div class="section-header">
+          <div class="section-title">Cadastrar novo jogo</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 280px;gap:20px;align-items:start">
+          <div class="form-card">
+            <div class="form-grid">
+              <div class="form-field">
+                <label>Slug <span class="hint">(identificador único, sem espaços)</span></label>
+                <input type="text" id="f-slug" placeholder="ex: geoquiz" oninput="this.value=this.value.toLowerCase().replace(/[^a-z0-9-]/g,'');updatePreview()">
+              </div>
+              <div class="form-field">
+                <label>Nome do jogo</label>
+                <input type="text" id="f-name" placeholder="ex: GeoQuiz" oninput="updatePreview()">
+              </div>
+              <div class="form-field full">
+                <label>Descrição</label>
+                <textarea id="f-desc" placeholder="Descrição curta do jogo..." oninput="updatePreview()"></textarea>
+              </div>
+              <div class="form-field">
+                <label>Ícone (emoji)</label>
+                <input type="text" id="f-icon" placeholder="🌍" maxlength="4" oninput="updatePreview()">
+              </div>
+              <div class="form-field">
+                <label>Status</label>
+                <select id="f-status">
+                  <option value="soon">Em breve</option>
+                  <option value="live">Live</option>
+                  <option value="planned">Planejado</option>
+                  <option value="archived">Arquivado</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label>Cor principal</label>
+                <input type="color" id="f-color" value="#5b4ff5" oninput="updatePreview()">
+              </div>
+              <div class="form-field">
+                <label>Cor de fundo do card</label>
+                <input type="color" id="f-color-dark" value="#ede9ff" oninput="updatePreview()">
+              </div>
+              <div class="form-field">
+                <label>URL do jogo</label>
+                <input type="text" id="f-url" placeholder="https://meujogo.netlify.app">
+              </div>
+              <div class="form-field">
+                <label>URL do admin</label>
+                <input type="text" id="f-admin-url" placeholder="https://meujogo-admin.netlify.app">
+              </div>
+              <div class="form-field">
+                <label>Ordem no hub</label>
+                <input type="number" id="f-order" value="99" min="1">
+              </div>
+              <div class="form-field">
+                <label>Perguntas por rodada (padrão)</label>
+                <input type="number" id="f-count" value="10" min="5" max="50">
+              </div>
+            </div>
+            <div style="display:flex;gap:10px;margin-top:20px">
+              <button class="btn btn-accent" onclick="saveGame()">✅ Salvar jogo</button>
+              <button class="btn btn-outline" onclick="clearForm()">Limpar</button>
+            </div>
+            <div id="form-hint" style="font-size:13px;color:var(--txt3);margin-top:10px"></div>
+          </div>
+
+          <!-- Preview -->
+          <div>
+            <div style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:var(--txt3);margin-bottom:10px">Preview do card</div>
+            <div class="preview-card" id="preview-card">
+              <div class="preview-header" id="prev-header" style="background:#ede9ff">🎮</div>
+              <div class="preview-body">
+                <div class="preview-name" id="prev-name">Nome do jogo</div>
+                <div class="preview-desc" id="prev-desc">Descrição aparece aqui</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JOGADORES -->
+      <div class="view" id="view-users">
+        <div class="section-header">
+          <div class="section-title">Jogadores</div>
+          <button class="btn btn-outline" onclick="loadUsers()">🔄 Atualizar</button>
+        </div>
+        <div id="users-list"><div style="color:var(--txt3);padding:20px">Carregando...</div></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- MODAL EDITAR JOGO -->
+<div class="modal-bg" id="modal-edit" onclick="closeEditModal(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">Editar jogo</div>
+      <button class="modal-close" onclick="document.getElementById('modal-edit').classList.remove('open')">✕</button>
+    </div>
+    <div class="form-grid" id="edit-form-grid">
+      <!-- preenchido por JS -->
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px">
+      <button class="btn btn-accent" onclick="saveEdit()">💾 Salvar</button>
+      <button class="btn btn-outline" onclick="document.getElementById('modal-edit').classList.remove('open')">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toasts"></div>
+
+<script>
+const API = 'https://quizzygamez-production.up.railway.app';
+let SECRET = '';
+let editingSlug = '';
+
+// ── LOGIN ─────────────────────────────────────────────────────────────────────
+async function doLogin() {
+  const key = document.getElementById('admin-secret').value.trim();
+  if (!key) return;
+  try {
+    const r = await fetch(`${API}/admin/stats`, {
+      headers: { 'x-admin-secret': key },
+      signal: AbortSignal.timeout(6000)
+    });
+    if (!r.ok) throw new Error('invalid');
+    SECRET = key;
+    localStorage.setItem('qz_admin_secret', key);
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app-screen').style.display = 'block';
+    document.getElementById('api-status').textContent = '🟢 API Online';
+    loadDashboard();
+    loadGames();
+  } catch {
+    document.getElementById('login-error').style.display = 'block';
+    setTimeout(() => document.getElementById('login-error').style.display = 'none', 3000);
+  }
+}
+
+function logout() {
+  localStorage.removeItem('qz_admin_secret');
+  SECRET = '';
+  document.getElementById('login-screen').style.display = 'flex';
+  document.getElementById('app-screen').style.display = 'none';
+  document.getElementById('admin-secret').value = '';
+}
+
+// Auto-login se tiver secret salvo
+const saved = localStorage.getItem('qz_admin_secret');
+if (saved) { document.getElementById('admin-secret').value = saved; doLogin(); }
+
+// ── NAVIGATION ────────────────────────────────────────────────────────────────
+function showView(v) {
+  document.querySelectorAll('.view').forEach(e => e.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(e => e.classList.remove('active'));
+  document.getElementById('view-' + v).classList.add('active');
+  document.getElementById('nav-' + v)?.classList.add('active');
+  if (v === 'games')    loadGames();
+  if (v === 'users')    loadUsers();
+  if (v === 'dashboard') loadDashboard();
+}
+
+// ── DASHBOARD ─────────────────────────────────────────────────────────────────
+async function loadDashboard() {
+  try {
+    const r = await fetch(`${API}/admin/stats`, { headers: {'x-admin-secret':SECRET} });
+    const d = await r.json();
+    const s = d.stats || {};
+    document.getElementById('d-games').textContent     = s.totalGames     || '—';
+    document.getElementById('d-questions').textContent = s.totalQuestions || '—';
+    document.getElementById('d-players').textContent   = s.totalPlayers   || '—';
+    document.getElementById('d-live').textContent      = (s.byGame||[]).filter(g=>g.status==='live').length || '—';
+    document.getElementById('dash-by-game').innerHTML  = (s.byGame||[]).map(g => `
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin-bottom:10px;display:flex;align-items:center;gap:14px;box-shadow:var(--shadow)">
+        <div style="font-size:22px">${g.icon||'🎮'}</div>
+        <div style="flex:1"><div style="font-weight:600;color:var(--txt)">${g.name}</div><div style="font-size:12px;color:var(--txt2)">${g.slug}</div></div>
+        <div style="text-align:right"><div style="font-size:18px;font-weight:700;color:var(--txt)">${g.questions}</div><div style="font-size:11px;color:var(--txt3)">perguntas</div></div>
+        <div style="text-align:right"><div style="font-size:18px;font-weight:700;color:var(--accent)">${g.players}</div><div style="font-size:11px;color:var(--txt3)">jogadores</div></div>
+        <span class="game-badge badge-${g.status}">${g.status}</span>
+      </div>`).join('');
+  } catch { toast('Erro ao carregar dashboard','err'); }
+}
+
+// ── GAMES ─────────────────────────────────────────────────────────────────────
+async function loadGames() {
+  const el = document.getElementById('games-list');
+  try {
+    const r = await fetch(`${API}/admin/games`, { headers: {'x-admin-secret':SECRET} });
+    const d = await r.json();
+    el.innerHTML = (d.games||[]).map(g => `
+      <div class="game-row">
+        <div class="game-row-icon" style="background:${g.colorDark||'#ede9ff'}">${g.icon||'🎮'}</div>
+        <div class="game-row-info">
+          <div class="game-row-name">${g.name}</div>
+          <div class="game-row-desc">${g.description}</div>
+          <div class="game-row-meta">
+            <span class="game-badge badge-${g.status}">${g.status}</span>
+            <span style="font-size:11px;color:var(--txt3)">ordem: ${g.order}</span>
+            ${g.url?`<a href="${g.url}" target="_blank" style="font-size:11px;color:var(--accent)">🔗 ${g.url.replace('https://','')}</a>`:''}
+          </div>
+        </div>
+        <div class="game-row-actions">
+          <button class="btn btn-outline btn-sm" onclick="openEdit('${g.slug}')">✏️ Editar</button>
+          <button class="btn btn-danger btn-sm" onclick="archiveGame('${g.slug}','${g.name}')">🗃️</button>
+        </div>
+      </div>`).join('') || '<div style="color:var(--txt3);padding:20px">Nenhum jogo cadastrado</div>';
+  } catch { el.innerHTML = '<div style="color:var(--red);padding:20px">Erro ao carregar jogos</div>'; }
+}
+
+// ── NEW GAME ──────────────────────────────────────────────────────────────────
+function updatePreview() {
+  const icon  = document.getElementById('f-icon').value  || '🎮';
+  const name  = document.getElementById('f-name').value  || 'Nome do jogo';
+  const desc  = document.getElementById('f-desc').value  || 'Descrição aparece aqui';
+  const color = document.getElementById('f-color-dark').value || '#ede9ff';
+  document.getElementById('prev-header').textContent   = icon;
+  document.getElementById('prev-header').style.background = color;
+  document.getElementById('prev-name').textContent    = name;
+  document.getElementById('prev-desc').textContent    = desc;
+}
+
+async function saveGame() {
+  const slug = document.getElementById('f-slug').value.trim();
+  const name = document.getElementById('f-name').value.trim();
+  if (!slug || !name) { toast('Slug e nome são obrigatórios','err'); return; }
+  const payload = {
+    slug, name,
+    description: document.getElementById('f-desc').value.trim(),
+    icon:        document.getElementById('f-icon').value.trim() || '🎮',
+    status:      document.getElementById('f-status').value,
+    color:       document.getElementById('f-color').value,
+    colorDark:   document.getElementById('f-color-dark').value,
+    url:         document.getElementById('f-url').value.trim(),
+    adminUrl:    document.getElementById('f-admin-url').value.trim(),
+    order:       parseInt(document.getElementById('f-order').value) || 99,
+    config: { defaultCount: parseInt(document.getElementById('f-count').value) || 10 },
+    active: true,
+  };
+  try {
+    const r = await fetch(`${API}/admin/games`, {
+      method:'POST', headers:{'Content-Type':'application/json','x-admin-secret':SECRET},
+      body: JSON.stringify(payload)
+    });
+    const d = await r.json();
+    if (d.success) { toast(`✅ ${name} cadastrado!`,'ok'); clearForm(); showView('games'); }
+    else toast(d.error || 'Erro ao salvar','err');
+  } catch { toast('Erro de conexão','err'); }
+}
+
+function clearForm() {
+  ['f-slug','f-name','f-desc','f-icon','f-url','f-admin-url'].forEach(id => {
+    const el = document.getElementById(id); if(el) el.value='';
+  });
+  document.getElementById('f-status').value  = 'soon';
+  document.getElementById('f-color').value   = '#5b4ff5';
+  document.getElementById('f-color-dark').value = '#ede9ff';
+  document.getElementById('f-order').value   = '99';
+  document.getElementById('f-count').value   = '10';
+  document.getElementById('form-hint').textContent = '';
+  updatePreview();
+}
+
+// ── EDIT GAME ─────────────────────────────────────────────────────────────────
+async function openEdit(slug) {
+  try {
+    const r = await fetch(`${API}/api/games/${slug}`);
+    const d = await r.json();
+    const g = d.game;
+    editingSlug = slug;
+    document.getElementById('edit-form-grid').innerHTML = `
+      <div class="form-field"><label>Nome</label><input id="ef-name" value="${esc(g.name)}"></div>
+      <div class="form-field"><label>Slug</label><input id="ef-slug" value="${esc(g.slug)}" readonly style="opacity:.6"></div>
+      <div class="form-field full"><label>Descrição</label><textarea id="ef-desc">${esc(g.description)}</textarea></div>
+      <div class="form-field"><label>Ícone</label><input id="ef-icon" value="${esc(g.icon)}" maxlength="4"></div>
+      <div class="form-field"><label>Status</label><select id="ef-status">${['live','soon','planned','archived'].map(s=>`<option value="${s}"${g.status===s?' selected':''}>${s}</option>`).join('')}</select></div>
+      <div class="form-field"><label>Cor principal</label><input type="color" id="ef-color" value="${g.color||'#5b4ff5'}"></div>
+      <div class="form-field"><label>Cor fundo card</label><input type="color" id="ef-color-dark" value="${g.colorDark||'#ede9ff'}"></div>
+      <div class="form-field"><label>URL do jogo</label><input id="ef-url" value="${esc(g.url||'')}"></div>
+      <div class="form-field"><label>URL do admin</label><input id="ef-admin-url" value="${esc(g.adminUrl||'')}"></div>
+      <div class="form-field"><label>Ordem</label><input type="number" id="ef-order" value="${g.order||99}"></div>`;
+    document.getElementById('modal-edit').classList.add('open');
+  } catch { toast('Erro ao carregar jogo','err'); }
+}
+
+async function saveEdit() {
+  const payload = {
+    name:      document.getElementById('ef-name').value.trim(),
+    description: document.getElementById('ef-desc').value.trim(),
+    icon:      document.getElementById('ef-icon').value.trim(),
+    status:    document.getElementById('ef-status').value,
+    color:     document.getElementById('ef-color').value,
+    colorDark: document.getElementById('ef-color-dark').value,
+    url:       document.getElementById('ef-url').value.trim(),
+    adminUrl:  document.getElementById('ef-admin-url').value.trim(),
+    order:     parseInt(document.getElementById('ef-order').value)||99,
+  };
+  try {
+    const r = await fetch(`${API}/admin/games/${editingSlug}`, {
+      method:'PUT', headers:{'Content-Type':'application/json','x-admin-secret':SECRET},
+      body: JSON.stringify(payload)
+    });
+    const d = await r.json();
+    if (d.success) {
+      toast('✅ Jogo atualizado!','ok');
+      document.getElementById('modal-edit').classList.remove('open');
+      loadGames(); loadDashboard();
+    } else toast(d.error||'Erro','err');
+  } catch { toast('Erro de conexão','err'); }
+}
+
+async function archiveGame(slug, name) {
+  if (!confirm(`Desativar "${name}"? Ele vai sair do hub.`)) return;
+  try {
+    await fetch(`${API}/admin/games/${slug}`, { method:'DELETE', headers:{'x-admin-secret':SECRET} });
+    toast(`${name} desativado`,'ok'); loadGames(); loadDashboard();
+  } catch { toast('Erro','err'); }
+}
+
+function closeEditModal(e) { if (e.target===document.getElementById('modal-edit')) document.getElementById('modal-edit').classList.remove('open'); }
+
+// ── USERS ─────────────────────────────────────────────────────────────────────
+async function loadUsers() {
+  const el = document.getElementById('users-list');
+  try {
+    const r = await fetch(`${API}/admin/users?limit=100`, { headers:{'x-admin-secret':SECRET} });
+    const d = await r.json();
+    const users = d.users || [];
+    if (!users.length) { el.innerHTML = '<div style="color:var(--txt3);padding:20px">Nenhum jogador ainda</div>'; return; }
+    el.innerHTML = `<div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)">
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr style="background:var(--surface2)">
+          <th style="padding:11px 14px;text-align:left;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--txt2)">Jogador</th>
+          <th style="padding:11px 14px;text-align:left;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--txt2)">Email</th>
+          <th style="padding:11px 14px;text-align:center;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--txt2)">Jogos</th>
+          <th style="padding:11px 14px;text-align:center;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--txt2)">Último acesso</th>
+          <th style="padding:11px 14px;font-size:11px;color:var(--txt2)"></th>
+        </tr></thead>
+        <tbody>${users.map(u => {
+          const init = (u.name||'?').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+          const last = u.lastSeen ? new Date(u.lastSeen).toLocaleDateString('pt-BR') : '—';
+          const games = Object.keys(u.scores||{}).length;
+          return `<tr style="border-top:1px solid var(--border)">
+            <td style="padding:11px 14px"><div style="display:flex;align-items:center;gap:8px">
+              <div style="width:30px;height:30px;border-radius:50%;background:var(--accent-light);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--accent)">${init}</div>
+              <span style="font-size:13px;font-weight:500">${esc(u.name||'—')}</span>
+            </div></td>
+            <td style="padding:11px 14px;font-size:12px;color:var(--txt2)">${esc(u.email||'—')}</td>
+            <td style="padding:11px 14px;text-align:center;font-size:13px">${games}</td>
+            <td style="padding:11px 14px;text-align:center;font-size:12px;color:var(--txt2)">${last}</td>
+            <td style="padding:11px 14px"><button class="btn btn-danger btn-sm" onclick="deleteUser('${u._id}','${esc(u.name||'')}')">🗑</button></td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+    </div>`;
+  } catch { el.innerHTML = '<div style="color:var(--red);padding:20px">Erro ao carregar jogadores</div>'; }
+}
+
+async function deleteUser(id, name) {
+  if (!confirm(`Excluir "${name}"?`)) return;
+  try {
+    await fetch(`${API}/admin/users/${id}`, { method:'DELETE', headers:{'x-admin-secret':SECRET} });
+    toast('Jogador excluído','ok'); loadUsers();
+  } catch { toast('Erro','err'); }
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function toast(msg, type='') {
+  const el = document.createElement('div');
+  el.className = `toast${type?' '+type:''}`;
+  el.textContent = msg;
+  document.getElementById('toasts').appendChild(el);
+  setTimeout(() => el.remove(), 3000);
+}
+</script>
+</body>
+</html>

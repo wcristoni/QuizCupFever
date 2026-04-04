@@ -1,0 +1,5702 @@
+[
+  {
+    "q": "Quantas seleções participarão da Copa do Mundo de 2026?",
+    "o": [
+      "32 seleções",
+      "40 seleções",
+      "48 seleções",
+      "56 seleções"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quais países sediarão a Copa do Mundo de 2026?",
+    "o": [
+      "Estados Unidos, Canadá e México",
+      "Estados Unidos, Brasil e Argentina",
+      "Canadá, México e Costa Rica",
+      "Estados Unidos, México e Panamá"
+    ],
+    "c": 0,
+    "cat": "Copa 2026",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Onde será realizada a final da Copa do Mundo de 2026?",
+    "o": [
+      "Estádio Azteca no México",
+      "Rose Bowl em Los Angeles",
+      "MetLife Stadium em Nova York",
+      "SoFi Stadium em Los Angeles"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas cidades no total receberão jogos da Copa do Mundo de 2026?",
+    "o": [
+      "12 cidades",
+      "14 cidades",
+      "16 cidades",
+      "18 cidades"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual grupo foi colocada a Seleção Brasileira na Copa de 2026?",
+    "o": [
+      "Grupo A",
+      "Grupo B",
+      "Grupo C",
+      "Grupo D"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Onde será realizada a cerimônia de abertura da Copa do Mundo de 2026?",
+    "o": [
+      "MetLife Stadium em Nova York",
+      "Estádio Azteca na Cidade do México",
+      "SoFi Stadium em Los Angeles",
+      "AT&T Stadium em Dallas"
+    ],
+    "c": 1,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual dessas seleções será estreante na Copa do Mundo de 2026?",
+    "o": [
+      "Cabo Verde",
+      "Islândia",
+      "Panamá",
+      "País de Gales"
+    ],
+    "c": 0,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas seleções da CONMEBOL se classificaram para a Copa de 2026?",
+    "o": [
+      "4 seleções",
+      "5 seleções",
+      "6 seleções",
+      "7 seleções"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual será o novo formato dos grupos na Copa do Mundo de 2026?",
+    "o": [
+      "8 grupos de 6 seleções",
+      "12 grupos de 4 seleções",
+      "16 grupos de 3 seleções",
+      "6 grupos de 8 seleções"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Além de Cabo Verde, qual outra seleção africana será estreante em Copas do Mundo em 2026?",
+    "o": [
+      "Burkina Faso",
+      "Mali",
+      "Guiné",
+      "Nenhuma outra seleção africana estreará"
+    ],
+    "c": 3,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção asiática será estreante na Copa do Mundo de 2026?",
+    "o": [
+      "Tailândia",
+      "Uzbequistão",
+      "Vietnã",
+      "Filipinas"
+    ],
+    "c": 1,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos jogos terá a Copa do Mundo de 2026 no total?",
+    "o": [
+      "64 jogos",
+      "80 jogos",
+      "96 jogos",
+      "104 jogos"
+    ],
+    "c": 3,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção da CONCACAF será estreante na Copa de 2026?",
+    "o": [
+      "Curaçao",
+      "El Salvador",
+      "Guatemala",
+      "Honduras"
+    ],
+    "c": 0,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas seleções se classificarão de cada grupo na primeira fase da Copa de 2026?",
+    "o": [
+      "1 seleção",
+      "2 seleções",
+      "3 seleções",
+      "4 seleções"
+    ],
+    "c": 1,
+    "cat": "Copa 2026",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção asiática será estreante pela primeira vez em uma Copa do Mundo em 2026?",
+    "o": [
+      "Malásia",
+      "Jordânia",
+      "Singapura",
+      "Myanmar"
+    ],
+    "c": 1,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas vagas a UEFA (Europa) terá na Copa do Mundo de 2026?",
+    "o": [
+      "13 vagas",
+      "14 vagas",
+      "15 vagas",
+      "16 vagas"
+    ],
+    "c": 3,
+    "cat": "Copa 2026",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantos países diferentes será realizada a Copa do Mundo de 2026?",
+    "o": [
+      "1 país",
+      "2 países",
+      "3 países",
+      "4 países"
+    ],
+    "c": 2,
+    "cat": "Copa 2026",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano foi realizada a primeira Copa do Mundo FIFA?",
+    "o": [
+      "1928",
+      "1930",
+      "1932",
+      "1934"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual país foi sede da primeira Copa do Mundo?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Chile"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas seleções participaram da primeira Copa do Mundo em 1930?",
+    "o": [
+      "16",
+      "13",
+      "12",
+      "18"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o primeiro país a conquistar a Copa do Mundo?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Itália"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo a televisão transmitiu pela primeira vez uma partida?",
+    "o": [
+      "1938 na França",
+      "1950 no Brasil",
+      "1954 na Suíça",
+      "1934 na Itália"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Por que não houve Copas do Mundo em 1942 e 1946?",
+    "o": [
+      "Crise econômica mundial",
+      "Segunda Guerra Mundial",
+      "Problemas na FIFA",
+      "Falta de países interessados"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual Copa do Mundo ficou conhecida como 'Copa da Televisão'?",
+    "o": [
+      "1966 na Inglaterra",
+      "1970 no México",
+      "1974 na Alemanha",
+      "1978 na Argentina"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo foi introduzido o sistema de cartões amarelos e vermelhos?",
+    "o": [
+      "1966 na Inglaterra",
+      "1970 no México",
+      "1974 na Alemanha",
+      "1978 na Argentina"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual país sediou a Copa de 1934?",
+    "o": [
+      "França",
+      "Espanha",
+      "Itália",
+      "Alemanha"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas vezes o Brasil foi campeão mundial até 2022?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo realizada na Ásia?",
+    "o": [
+      "2002 Japão/Coreia do Sul",
+      "2006 Alemanha",
+      "2010 África do Sul",
+      "2022 Catar"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo houve a maior média de gols por partida na história?",
+    "o": [
+      "1950 no Brasil",
+      "1954 na Suíça",
+      "1970 no México",
+      "1982 na Espanha"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual país será sede da Copa do Mundo de 2026?",
+    "o": [
+      "Estados Unidos apenas",
+      "México apenas",
+      "Estados Unidos, Canadá e México",
+      "Canadá e Estados Unidos"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas seleções participarão da Copa de 2026?",
+    "o": [
+      "32",
+      "40",
+      "48",
+      "36"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual Copa do Mundo teve o menor número de participantes?",
+    "o": [
+      "1930 com 13 times",
+      "1934 com 16 times",
+      "1938 com 15 times",
+      "1950 com 13 times"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo foi realizada a primeira partida em um estádio coberto?",
+    "o": [
+      "1994 nos Estados Unidos",
+      "1998 na França",
+      "2002 no Japão/Coreia",
+      "2022 no Catar"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual Copa do Mundo foi a primeira realizada no inverno do hemisfério norte?",
+    "o": [
+      "2018 na Rússia",
+      "2022 no Catar",
+      "2014 no Brasil",
+      "2010 na África do Sul"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos países já sediaram uma Copa do Mundo até 2022?",
+    "o": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo realizada na América do Sul após 1978?",
+    "o": [
+      "2010 África do Sul",
+      "2014 Brasil",
+      "1994 Estados Unidos",
+      "2018 Rússia"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo foi introduzida a fase de grupos como conhecemos hoje?",
+    "o": [
+      "1950 no Brasil",
+      "1954 na Suíça",
+      "1958 na Suécia",
+      "1962 no Chile"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual Copa do Mundo teve a maior audiência televisiva da história?",
+    "o": [
+      "2006 Alemanha",
+      "2010 África do Sul",
+      "2014 Brasil",
+      "2018 Rússia"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas Copas do Mundo foram realizadas na Europa até 2022?",
+    "o": [
+      "11",
+      "12",
+      "13",
+      "10"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo com 32 seleções?",
+    "o": [
+      "1994 Estados Unidos",
+      "1998 França",
+      "2002 Japão/Coreia",
+      "1990 Itália"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo foi utilizado pela primeira vez o VAR?",
+    "o": [
+      "2014 Brasil",
+      "2018 Rússia",
+      "2022 Catar",
+      "2010 África do Sul"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual Copa do Mundo teve o maior número de países candidatos a sede na história?",
+    "o": [
+      "2018 com 7 candidatos",
+      "2022 com 5 candidatos",
+      "2006 com 6 candidatos",
+      "2026 com 3 candidatos"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual país foi campeão da primeira Copa do Mundo em 1930?",
+    "o": [
+      "Argentina",
+      "Uruguai",
+      "Brasil",
+      "Itália"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Por que não houve Copa do Mundo em 1942 e 1946?",
+    "o": [
+      "Crise econômica mundial",
+      "Segunda Guerra Mundial",
+      "Greve dos jogadores",
+      "Problemas na FIFA"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a única Copa do Mundo em que o país-sede não participou automaticamente?",
+    "o": [
+      "Uruguai 1930",
+      "Brasil 1950",
+      "Suíça 1954",
+      "Nenhuma, sempre participaram"
+    ],
+    "c": 3,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo foi utilizada pela primeira vez a transmissão de TV ao vivo?",
+    "o": [
+      "Brasil 1950",
+      "Suíça 1954",
+      "Suécia 1958",
+      "Chile 1962"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas seleções participaram da Copa do Mundo de 1930?",
+    "o": [
+      "16",
+      "13",
+      "24",
+      "18"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual país sediará a Copa do Mundo de 2026 junto com Estados Unidos e México?",
+    "o": [
+      "Guatemala",
+      "Canadá",
+      "Costa Rica",
+      "Panamá"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano a Copa do Mundo passou a ter 24 seleções pela primeira vez?",
+    "o": [
+      "1978",
+      "1982",
+      "1986",
+      "1990"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o primeiro país africano a sediar uma Copa do Mundo?",
+    "o": [
+      "Nigéria",
+      "Egito",
+      "África do Sul",
+      "Marrocos"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Por que a Copa de 1934 na Itália foi controversa do ponto de vista político?",
+    "o": [
+      "Guerra civil no país",
+      "Regime fascista de Mussolini",
+      "Conflito com o Vaticano",
+      "Crise econômica severa"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual Copa do Mundo foi a primeira realizada em dois países diferentes?",
+    "o": [
+      "Coreia do Sul/Japão 2002",
+      "Estados Unidos 1994",
+      "México 1986",
+      "Espanha 1982"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo foi introduzido o cartão vermelho e amarelo?",
+    "o": [
+      "Inglaterra 1966",
+      "México 1970",
+      "Alemanha 1974",
+      "Argentina 1978"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas seleções participarão da Copa do Mundo de 2026?",
+    "o": [
+      "32",
+      "40",
+      "48",
+      "36"
+    ],
+    "c": 2,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo realizada no inverno do hemisfério norte?",
+    "o": [
+      "Rússia 2018",
+      "Catar 2022",
+      "África do Sul 2010",
+      "Coreia/Japão 2002"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa do Mundo foi usado pela primeira vez o sistema de desempate por pênaltis?",
+    "o": [
+      "México 1970",
+      "Alemanha 1974",
+      "Argentina 1978",
+      "Espanha 1982"
+    ],
+    "c": 3,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual país europeu nunca sediou uma Copa do Mundo até 2022?",
+    "o": [
+      "Bélgica",
+      "Holanda",
+      "Áustria",
+      "Todos os citados"
+    ],
+    "c": 3,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo foi utilizada pela primeira vez a bola totalmente branca?",
+    "o": [
+      "Argentina 1978",
+      "Espanha 1982",
+      "México 1986",
+      "Itália 1990"
+    ],
+    "c": 0,
+    "cat": "História Geral",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o motivo principal para a Copa de 1950 ter um formato único com fase final em grupo?",
+    "o": [
+      "Decisão da FIFA",
+      "Muitas desistências de seleções",
+      "Preferência do Brasil",
+      "Questões climáticas"
+    ],
+    "c": 1,
+    "cat": "História Geral",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano o Brasil conquistou seu primeiro título mundial?",
+    "o": [
+      "1950",
+      "1958",
+      "1962",
+      "1966"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas Copas do Mundo o Brasil já venceu?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o placar da final da Copa de 1970 entre Brasil e Itália?",
+    "o": [
+      "3x1",
+      "4x1",
+      "2x1",
+      "3x0"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual país o Brasil conquistou o pentacampeonato em 2002?",
+    "o": [
+      "França",
+      "Coreia do Sul e Japão",
+      "Alemanha",
+      "Estados Unidos"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem é o maior artilheiro brasileiro em todas as Copas do Mundo?",
+    "o": [
+      "Pelé",
+      "Ronaldo",
+      "Romário",
+      "Ronaldinho"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual técnico comandou o Brasil no tetracampeonato de 1994?",
+    "o": [
+      "Telê Santana",
+      "Carlos Alberto Parreira",
+      "Mário Zagallo",
+      "Luiz Felipe Scolari"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo Pelé conquistou seu primeiro título mundial?",
+    "o": [
+      "1962 no Chile",
+      "1958 na Suécia",
+      "1970 no México",
+      "1966 na Inglaterra"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o placar da semifinal Brasil x Alemanha na Copa de 2014?",
+    "o": [
+      "1x7",
+      "7x1",
+      "2x7",
+      "7x0"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem eliminou o Brasil nas quartas de final da Copa de 2022?",
+    "o": [
+      "Argentina",
+      "França",
+      "Croácia",
+      "Bélgica"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual estádio aconteceu o 'Maracanazo' em 1950?",
+    "o": [
+      "Estádio Nacional",
+      "Maracanã",
+      "Morumbi",
+      "Pacaembu"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em Copas do Mundo?",
+    "o": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção derrotou o Brasil na final da Copa de 1998?",
+    "o": [
+      "Alemanha",
+      "Argentina",
+      "França",
+      "Itália"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em quantas Copas do Mundo consecutivas o Brasil participou até 2022?",
+    "o": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o técnico do Brasil na Copa de 2002?",
+    "o": [
+      "Luiz Felipe Scolari",
+      "Carlos Alberto Parreira",
+      "Dunga",
+      "Mário Zagallo"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador brasileiro foi artilheiro da Copa de 1950?",
+    "o": [
+      "Zizinho",
+      "Ademir",
+      "Jair",
+      "Friaça"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo o Brasil foi eliminado nas oitavas de final pela Bélgica?",
+    "o": [
+      "2014",
+      "2018",
+      "2010",
+      "2006"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Ronaldo marcou na final da Copa de 2002?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a única Copa do Mundo que Pelé jogou e não ganhou?",
+    "o": [
+      "1966 na Inglaterra",
+      "1962 no Chile",
+      "1958 na Suécia",
+      "1970 no México"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano o Brasil conquistou o tricampeonato mundial?",
+    "o": [
+      "1966",
+      "1970",
+      "1974",
+      "1962"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual técnico comandou o Brasil em mais Copas do Mundo?",
+    "o": [
+      "Carlos Alberto Parreira",
+      "Mário Zagallo",
+      "Telê Santana",
+      "Luiz Felipe Scolari"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual seleção o Brasil perdeu a final da Copa de 1950?",
+    "o": [
+      "Argentina",
+      "Uruguai",
+      "Itália",
+      "Espanha"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem foi o goleiro titular do Brasil na Copa de 1994?",
+    "o": [
+      "Taffarel",
+      "Carlos",
+      "Dida",
+      "Marcos"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo Garrincha foi eleito o melhor jogador?",
+    "o": [
+      "1958",
+      "1962",
+      "1966",
+      "1970"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos gols o Brasil marcou na Copa de 1970?",
+    "o": [
+      "17",
+      "19",
+      "21",
+      "15"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o último adversário do Brasil na Copa de 2018?",
+    "o": [
+      "França",
+      "Uruguai",
+      "Bélgica",
+      "Argentina"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que país o Brasil conquistou seu primeiro título mundial?",
+    "o": [
+      "Suécia",
+      "Chile",
+      "México",
+      "Inglaterra"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador brasileiro é o maior artilheiro da história das Copas do Mundo?",
+    "o": [
+      "Pelé",
+      "Ronaldo",
+      "Romário",
+      "Jairzinho"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em Copas do Mundo?",
+    "o": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o técnico do Brasil na Copa de 2002?",
+    "o": [
+      "Carlos Alberto Parreira",
+      "Luiz Felipe Scolari",
+      "Mário Zagallo",
+      "Vanderlei Luxemburgo"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo Jairzinho marcou gol em todas as partidas que disputou?",
+    "o": [
+      "1966",
+      "1970",
+      "1974",
+      "1978"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção eliminou o Brasil nas quartas de final da Copa de 2022?",
+    "o": [
+      "Argentina",
+      "França",
+      "Croácia",
+      "Holanda"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem foi o capitão da seleção brasileira na Copa de 1994?",
+    "o": [
+      "Dunga",
+      "Cafu",
+      "Romário",
+      "Bebeto"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da semifinal Brasil x Alemanha na Copa de 2014?",
+    "o": [
+      "1x7",
+      "0x7",
+      "2x7",
+      "1x8"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em quantas Copas do Mundo o Brasil participou desde 1930?",
+    "o": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador fez dois gols na final da Copa de 2002?",
+    "o": [
+      "Ronaldinho",
+      "Rivaldo",
+      "Ronaldo",
+      "Roberto Carlos"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Contra qual seleção o Brasil fez sua estreia na primeira Copa do Mundo de 1930?",
+    "o": [
+      "Uruguai",
+      "Argentina",
+      "Iugoslávia",
+      "Bolívia"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico estava no comando quando o Brasil perdeu a final de 1950?",
+    "o": [
+      "Flávio Costa",
+      "Gentil Cardoso",
+      "Zezé Moreira",
+      "Vicente Feola"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa o Brasil usou pela primeira vez a camisa amarela?",
+    "o": [
+      "1950",
+      "1954",
+      "1958",
+      "1962"
+    ],
+    "c": 1,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo que o Brasil não conseguiu se classificar?",
+    "o": [
+      "1934",
+      "1938",
+      "1950",
+      "O Brasil nunca ficou fora"
+    ],
+    "c": 3,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem marcou o gol do Brasil na final da Copa de 1994?",
+    "o": [
+      "Romário",
+      "Bebeto",
+      "Ninguém - foi decidida nos pênaltis",
+      "Dunga"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o nome dado ao ataque brasileiro na Copa de 1982?",
+    "o": [
+      "Máquina Humana",
+      "Ballet Branco",
+      "Carrossel Canarinho",
+      "Esquadrão de Ouro"
+    ],
+    "c": 2,
+    "cat": "Brasil nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual estádio o Brasil jogará sua estreia na Copa de 2026?",
+    "o": [
+      "Ainda não foi definido",
+      "MetLife Stadium",
+      "AT&T Stadium",
+      "Rose Bowl"
+    ],
+    "c": 0,
+    "cat": "Brasil nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador é o maior artilheiro da história das Copas do Mundo?",
+    "o": [
+      "Miroslav Klose",
+      "Ronaldo",
+      "Pelé",
+      "Gerd Müller"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Miroslav Klose marcou em Copas do Mundo?",
+    "o": [
+      "14 gols",
+      "15 gols",
+      "16 gols",
+      "17 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Just Fontaine detém o recorde de gols em uma única Copa do Mundo. Quantos gols ele marcou em 1958?",
+    "o": [
+      "11 gols",
+      "12 gols",
+      "13 gols",
+      "14 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador brasileiro é o segundo maior artilheiro da história das Copas do Mundo?",
+    "o": [
+      "Pelé",
+      "Romário",
+      "Ronaldo",
+      "Ronaldinho"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Ronaldo marcou em todas as Copas do Mundo que disputou?",
+    "o": [
+      "13 gols",
+      "14 gols",
+      "15 gols",
+      "16 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem marcou o gol mais rápido da história das Copas do Mundo?",
+    "o": [
+      "Hakan Şükür",
+      "Alan Shearer",
+      "Clint Dempsey",
+      "Bryan Robson"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantos segundos foi marcado o gol mais rápido da história das Copas?",
+    "o": [
+      "9,6 segundos",
+      "10,8 segundos",
+      "11,0 segundos",
+      "12,4 segundos"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador fez hat-trick em uma final de Copa do Mundo?",
+    "o": [
+      "Pelé",
+      "Geoff Hurst",
+      "Zinedine Zidane",
+      "Ronaldo"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo Geoff Hurst fez hat-trick na final?",
+    "o": [
+      "Copa de 1962",
+      "Copa de 1966",
+      "Copa de 1970",
+      "Copa de 1974"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2014?",
+    "o": [
+      "Thomas Müller",
+      "Neymar",
+      "James Rodríguez",
+      "Lionel Messi"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols James Rodríguez marcou na Copa de 2014?",
+    "o": [
+      "5 gols",
+      "6 gols",
+      "7 gols",
+      "8 gols"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador marcou o gol número 1000 da história das Copas do Mundo?",
+    "o": [
+      "Lothar Matthäus",
+      "Rob Rensenbrink",
+      "Uwe Seeler",
+      "Teófilo Cubillas"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em Copas do Mundo?",
+    "o": [
+      "10 gols",
+      "11 gols",
+      "12 gols",
+      "13 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem foi o artilheiro da primeira Copa do Mundo em 1930?",
+    "o": [
+      "Guillermo Stábile",
+      "Pedro Cea",
+      "Bert Patenaude",
+      "Pablo Dorado"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador marcou o primeiro hat-trick da história das Copas do Mundo?",
+    "o": [
+      "Guillermo Stábile",
+      "Bert Patenaude",
+      "Pedro Cea",
+      "Angelo Schiavio"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem marcou o gol da vitória do Brasil na final da Copa de 2002?",
+    "o": [
+      "Ronaldo",
+      "Ronaldinho",
+      "Rivaldo",
+      "Roberto Carlos"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols foram marcados na partida Brasil 1 x 7 Alemanha na Copa de 2014?",
+    "o": [
+      "6 gols",
+      "7 gols",
+      "8 gols",
+      "9 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2018?",
+    "o": [
+      "Harry Kane",
+      "Antoine Griezmann",
+      "Romelu Lukaku",
+      "Kylian Mbappé"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador marcou o gol da final da Copa de 2010 que deu o título à Espanha?",
+    "o": [
+      "David Villa",
+      "Fernando Torres",
+      "Andrés Iniesta",
+      "Xavi"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Gerd Müller marcou em Copas do Mundo?",
+    "o": [
+      "12 gols",
+      "13 gols",
+      "14 gols",
+      "15 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem marcou o gol mais famoso com a mão na história das Copas?",
+    "o": [
+      "Pelé",
+      "Diego Maradona",
+      "Thierry Henry",
+      "Luis Suárez"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa do Mundo Diego Maradona marcou o 'Gol do Século'?",
+    "o": [
+      "México 1986",
+      "Itália 1990",
+      "Argentina 1978",
+      "Espanha 1982"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador fez o primeiro gol da Copa do Mundo de 2022?",
+    "o": [
+      "Enner Valencia",
+      "Bukayo Saka",
+      "Casemiro",
+      "Salem Al-Dawsari"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2022?",
+    "o": [
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Olivier Giroud",
+      "Julian Álvarez"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos países sediarão a Copa do Mundo de 2026?",
+    "o": [
+      "1 país",
+      "2 países",
+      "3 países",
+      "4 países"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador detém o recorde de mais gols marcados em todas as Copas do Mundo?",
+    "o": [
+      "Miroslav Klose",
+      "Ronaldo",
+      "Pelé",
+      "Gerd Müller"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Just Fontaine marcou na Copa do Mundo de 1958, estabelecendo o recorde de gols em uma única edição?",
+    "o": [
+      "11 gols",
+      "12 gols",
+      "13 gols",
+      "14 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Ronaldo marcou em suas participações em Copas do Mundo?",
+    "o": [
+      "13 gols",
+      "14 gols",
+      "15 gols",
+      "16 gols"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem marcou o gol mais rápido da história das Copas do Mundo?",
+    "o": [
+      "Hakan Şükür",
+      "Clint Dempsey",
+      "Alan Shearer",
+      "Robbie Keane"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantos segundos Hakan Şükür marcou o gol mais rápido da história das Copas?",
+    "o": [
+      "9 segundos",
+      "11 segundos",
+      "13 segundos",
+      "15 segundos"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador fez hat-trick na final da Copa do Mundo de 1966?",
+    "o": [
+      "Bobby Charlton",
+      "Geoff Hurst",
+      "Martin Peters",
+      "Roger Hunt"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem foi o artilheiro da Copa do Mundo de 2014?",
+    "o": [
+      "Thomas Müller",
+      "Neymar",
+      "James Rodríguez",
+      "Lionel Messi"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador marcou o primeiro gol da história das Copas do Mundo em 1930?",
+    "o": [
+      "Héctor Castro",
+      "Lucien Laurent",
+      "Guillermo Stábile",
+      "Bert Patenaude"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem marcou o gol número 1000 da história das Copas do Mundo?",
+    "o": [
+      "Hristo Stoichkov",
+      "Oleg Salenko",
+      "Roberto Baggio",
+      "Romário"
+    ],
+    "c": 0,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador marcou mais gols em uma única partida de Copa do Mundo?",
+    "o": [
+      "Just Fontaine - 4 gols",
+      "Oleg Salenko - 5 gols",
+      "Gerd Müller - 4 gols",
+      "Eusébio - 4 gols"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Contra qual seleção Oleg Salenko marcou 5 gols em uma partida na Copa de 1994?",
+    "o": [
+      "Bulgária",
+      "Suécia",
+      "Camarões",
+      "Brasil"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o artilheiro da primeira Copa do Mundo em 1930?",
+    "o": [
+      "Pedro Cea",
+      "Héctor Scarone",
+      "Guillermo Stábile",
+      "Héctor Castro"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em Copas do Mundo?",
+    "o": [
+      "10 gols",
+      "12 gols",
+      "14 gols",
+      "16 gols"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador marcou o gol que eliminou o Brasil na Copa de 2018?",
+    "o": [
+      "Romelu Lukaku",
+      "Kevin De Bruyne",
+      "Fernandinho (gol contra)",
+      "Eden Hazard"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem marcou o gol da vitória da Alemanha sobre o Brasil por 1-0 na Copa de 2002?",
+    "o": [
+      "Michael Ballack",
+      "Oliver Kahn",
+      "Ronaldo",
+      "Oliver Bierhoff"
+    ],
+    "c": 2,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador marcou o famoso gol de voleio na Copa de 2010 que foi considerado um dos mais bonitos da competição?",
+    "o": [
+      "Arjen Robben",
+      "Giovanni van Bronckhorst",
+      "Wesley Sneijder",
+      "Dirk Kuyt"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos hat-tricks foram marcados na Copa do Mundo de 2018?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "c": 1,
+    "cat": "Artilheiros e Gols",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo Pelé conquistou pela Seleção Brasileira?",
+    "o": [
+      "Duas",
+      "Três",
+      "Quatro",
+      "Uma"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo Diego Maradona marcou o famoso 'Gol do Século' contra a Inglaterra?",
+    "o": [
+      "México 1986",
+      "Espanha 1982",
+      "Itália 1990",
+      "Argentina 1978"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Contra qual seleção Zinedine Zidane deu a famosa cabeçada na final da Copa de 2006?",
+    "o": [
+      "Brasil",
+      "Alemanha",
+      "Itália",
+      "Portugal"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Ronaldo Fenômeno marcou na final da Copa do Mundo de 2002?",
+    "o": [
+      "Um",
+      "Três",
+      "Dois",
+      "Nenhum"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo Lionel Messi finalmente conquistou seu primeiro título mundial?",
+    "o": [
+      "Brasil 2014",
+      "Rússia 2018",
+      "Catar 2022",
+      "França 1998"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano Pelé conquistou sua primeira Copa do Mundo?",
+    "o": [
+      "1962",
+      "1970",
+      "1958",
+      "1966"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador português foi artilheiro da Copa do Mundo de 1966 na Inglaterra?",
+    "o": [
+      "Cristiano Ronaldo",
+      "Eusébio",
+      "Figo",
+      "Rui Costa"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Johan Cruyff liderou a Holanda em qual inovação tática durante a Copa de 1974?",
+    "o": [
+      "Catenaccio",
+      "Futebol Total",
+      "Tiki-taka",
+      "WM"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Franz Beckenbauer foi campeão mundial como jogador e técnico. Em que anos?",
+    "o": [
+      "1974 e 1990",
+      "1970 e 1986",
+      "1978 e 1994",
+      "1966 e 1982"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Garrincha foi decisivo na conquista brasileira de 1962 devido à lesão de qual companheiro?",
+    "o": [
+      "Didi",
+      "Vavá",
+      "Pelé",
+      "Zagallo"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual minuto da partida contra a Inglaterra em 1986 Maradona marcou o gol conhecido como 'Mão de Deus'?",
+    "o": [
+      "51",
+      "47",
+      "55",
+      "49"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos gols Ronaldo Fenômeno marcou em todas as Copas do Mundo que disputou?",
+    "o": [
+      "12",
+      "15",
+      "18",
+      "21"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Johan Neeskens marcou de pênalti no primeiro minuto da final de 1974, mas perdeu para qual seleção?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Alemanha Ocidental",
+      "Itália"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo Pelé não jogou devido a lesões causadas por faltas excessivas?",
+    "o": [
+      "Chile 1962",
+      "Inglaterra 1966",
+      "México 1970",
+      "Uruguai 1930"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual jogador italiano Zidane cometeu a agressão na final de 2006?",
+    "o": [
+      "Francesco Totti",
+      "Andrea Pirlo",
+      "Marco Materazzi",
+      "Gennaro Gattuso"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o placar da final entre Argentina e França na Copa de 2022 no tempo regulamentar?",
+    "o": [
+      "2-2",
+      "3-3",
+      "1-1",
+      "4-2"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Eusébio nasceu em qual território então sob domínio português?",
+    "o": [
+      "Macau",
+      "Timor",
+      "Moçambique",
+      "Angola"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos gols Garrincha marcou na Copa do Mundo de 1962?",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Cruyff perdeu quantas finais de Copa do Mundo como jogador?",
+    "o": [
+      "Duas",
+      "Uma",
+      "Três",
+      "Nenhuma"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Ronaldo Fenômeno teve uma convulsão misteriosa horas antes de qual final de Copa?",
+    "o": [
+      "França 1998",
+      "Coreia/Japão 2002",
+      "Alemanha 2006",
+      "Itália 1990"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Messi marcou quantos gols na Copa do Mundo de 2022?",
+    "o": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Beckenbauer jogou em quantas Copas do Mundo como atleta?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Maradona foi expulso de qual Copa do Mundo por uso de substâncias proibidas?",
+    "o": [
+      "Itália 1990",
+      "Estados Unidos 1994",
+      "México 1986",
+      "Espanha 1982"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo Pelé marcou seu primeiro gol?",
+    "o": [
+      "Suécia 1958",
+      "Chile 1962",
+      "México 1970",
+      "Brasil 1950"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual era o apelido de Garrincha?",
+    "o": [
+      "Rei do Futebol",
+      "Anjo das Pernas Tortas",
+      "Fenômeno",
+      "Craque da Vila"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em quantas Copas do Mundo Pelé foi campeão?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo Maradona marcou o famoso 'Gol do Século'?",
+    "o": [
+      "México 1986",
+      "Itália 1990",
+      "Espanha 1982",
+      "Argentina 1978"
+    ],
+    "c": 0,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Contra qual seleção Zidane deu a cabeçada em Materazzi na final de 2006?",
+    "o": [
+      "Alemanha",
+      "Itália",
+      "Brasil",
+      "Argentina"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Ronaldo Fenômeno marcou na final da Copa de 2002?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que estádio Messi conquistou sua primeira Copa do Mundo em 2022?",
+    "o": [
+      "Stadium 974",
+      "Al Bayt Stadium",
+      "Lusail Stadium",
+      "Al Thumama Stadium"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a única Copa do Mundo que Garrincha jogou sem Pelé como companheiro de seleção titular?",
+    "o": [
+      "Chile 1962",
+      "Suécia 1958",
+      "Inglaterra 1966",
+      "México 1970"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Eusébio foi artilheiro de qual Copa do Mundo?",
+    "o": [
+      "México 1970",
+      "Inglaterra 1966",
+      "Chile 1962",
+      "Alemanha 1974"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogada ficou conhecida como marca registrada de Johan Cruyff?",
+    "o": [
+      "Pedalada",
+      "Elástico",
+      "Giro de Cruyff",
+      "Chapéu"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Beckenbauer foi campeão mundial como jogador em que ano?",
+    "o": [
+      "1970",
+      "1974",
+      "1978",
+      "1982"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em finais de Copa do Mundo?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o placar da final de 1974 entre Alemanha e Holanda, time de Cruyff e Neeskens?",
+    "o": [
+      "3x1",
+      "2x1",
+      "4x1",
+      "1x0"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo Maradona fez a famosa 'Mão de Deus'?",
+    "o": [
+      "Espanha 1982",
+      "México 1986",
+      "Itália 1990",
+      "Estados Unidos 1994"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Ronaldo Fenômeno foi artilheiro de qual Copa do Mundo?",
+    "o": [
+      "França 1998",
+      "Coreia/Japão 2002",
+      "Alemanha 2006",
+      "Brasil 2014"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos anos Pelé tinha quando conquistou sua primeira Copa do Mundo?",
+    "o": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Johan Neeskens marcou de que forma na final de 1974?",
+    "o": [
+      "Chute de fora da área",
+      "Cabeçada",
+      "Pênalti",
+      "Cobrança de falta"
+    ],
+    "c": 2,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual seleção Eusébio marcou 4 gols em uma única partida na Copa de 1966?",
+    "o": [
+      "Brasil",
+      "Coreia do Norte",
+      "União Soviética",
+      "Alemanha"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantas Copas do Mundo Messi participou antes de ser campeão em 2022?",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "c": 1,
+    "cat": "Lendas do Futebol",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a maior goleada da história das Copas do Mundo?",
+    "o": [
+      "Hungria 10x1 El Salvador (1982)",
+      "Brasil 7x1 Suécia (1950)",
+      "Alemanha 8x0 Arábia Saudita (2002)",
+      "Uruguai 8x0 Bolívia (1950)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o maior público já registrado em uma partida de Copa do Mundo?",
+    "o": [
+      "173.850 pessoas no Maracanã em 1950",
+      "199.854 pessoas no Maracanã em 1950",
+      "165.000 pessoas no Estádio Azteca em 1970",
+      "180.000 pessoas no Wembley em 1966"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o único jogador expulso em uma final de Copa do Mundo?",
+    "o": [
+      "Zinedine Zidane",
+      "Diego Maradona",
+      "Pelé",
+      "Franz Beckenbauer"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas seleções já participaram de todas as Copas do Mundo desde 1930?",
+    "o": [
+      "Uma (Brasil)",
+      "Duas (Brasil e Alemanha)",
+      "Três (Brasil, Argentina e Alemanha)",
+      "Nenhuma"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo foram marcados mais gols?",
+    "o": [
+      "França 1998 (171 gols)",
+      "Brasil 2014 (171 gols)",
+      "França 2018 (169 gols)",
+      "Rússia 2018 (169 gols)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos jogadores já participaram de 5 Copas do Mundo?",
+    "o": [
+      "Três jogadores",
+      "Um jogador",
+      "Dois jogadores",
+      "Quatro jogadores"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual goleiro detém o recorde de mais jogos disputados em Copas do Mundo?",
+    "o": [
+      "Manuel Neuer",
+      "Claudio Taffarel",
+      "Gianluigi Buffon",
+      "Emiliano Martínez"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano ocorreu a primeira Copa do Mundo televisionada?",
+    "o": [
+      "1954 na Suíça",
+      "1950 no Brasil",
+      "1958 na Suécia",
+      "1962 no Chile"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual é o recorde de gols marcados por um jogador em uma única Copa do Mundo?",
+    "o": [
+      "13 gols (Just Fontaine, 1958)",
+      "12 gols (Pelé, 1970)",
+      "11 gols (Gerd Müller, 1970)",
+      "10 gols (Garrincha, 1962)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas seleções participarão da Copa do Mundo de 2026?",
+    "o": [
+      "48 seleções",
+      "40 seleções",
+      "36 seleções",
+      "32 seleções"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador tem o recorde de mais partidas disputadas em Copas do Mundo?",
+    "o": [
+      "Lothar Matthäus (25 jogos)",
+      "Paolo Maldini (23 jogos)",
+      "Diego Maradona (21 jogos)",
+      "Miroslav Klose (24 jogos)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo houve o menor número de gols marcados?",
+    "o": [
+      "Uruguai 1930 (70 gols)",
+      "Itália 1934 (70 gols)",
+      "Inglaterra 1966 (89 gols)",
+      "Espanha 1982 (146 gols)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual é a seleção que mais vezes ficou em quarto lugar em Copas do Mundo?",
+    "o": [
+      "Alemanha (4 vezes)",
+      "Brasil (2 vezes)",
+      "Polônia (2 vezes)",
+      "Holanda (3 vezes)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem foi o jogador mais novo a marcar em uma Copa do Mundo?",
+    "o": [
+      "Pelé (17 anos e 239 dias)",
+      "Michael Owen (18 anos e 190 dias)",
+      "Kylian Mbappé (19 anos e 183 dias)",
+      "Ronaldo Nazário (17 anos e 300 dias)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo disputada em dois países?",
+    "o": [
+      "Japão/Coreia do Sul 2002",
+      "México/EUA 1994",
+      "Espanha/Portugal 1982",
+      "Argentina/Uruguai 1978"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos hat-tricks foram marcados na Copa do Mundo de 2018 na Rússia?",
+    "o": [
+      "2 hat-tricks",
+      "4 hat-tricks",
+      "1 hat-trick",
+      "3 hat-tricks"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual goleiro sofreu mais gols em Copas do Mundo?",
+    "o": [
+      "Antonio Carbajal (25 gols)",
+      "Sepp Maier (18 gols)",
+      "Gianluigi Buffon (16 gols)",
+      "Claudio Taffarel (20 gols)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo foi introduzido o cartão amarelo e vermelho?",
+    "o": [
+      "México 1970",
+      "Inglaterra 1966",
+      "Alemanha 1974",
+      "Argentina 1978"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual é o recorde de pênaltis convertidos em uma única Copa do Mundo?",
+    "o": [
+      "29 pênaltis (Rússia 2018)",
+      "25 pênaltis (Brasil 2014)",
+      "22 pênaltis (França 1998)",
+      "18 pênaltis (Alemanha 2006)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o jogador mais velho a disputar uma Copa do Mundo?",
+    "o": [
+      "Alfredo Talavera (50 anos)",
+      "Roger Milla (42 anos)",
+      "Dino Zoff (40 anos)",
+      "Faryd Mondragón (43 anos)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo tiveram prorrogação na final?",
+    "o": [
+      "4 Copas",
+      "5 Copas",
+      "3 Copas",
+      "6 Copas"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção tem o recorde de mais vitórias consecutivas em Copas do Mundo?",
+    "o": [
+      "Brasil (11 vitórias)",
+      "Alemanha (9 vitórias)",
+      "Argentina (8 vitórias)",
+      "Espanha (7 vitórias)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantos países será disputada a Copa do Mundo de 2026?",
+    "o": [
+      "3 países (EUA, Canadá e México)",
+      "2 países (EUA e México)",
+      "4 países",
+      "1 país (Estados Unidos)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo com 32 seleções?",
+    "o": [
+      "França 1998",
+      "Estados Unidos 1994",
+      "Itália 1990",
+      "Espanha 1982"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem marcou o gol mais rápido da história das Copas do Mundo?",
+    "o": [
+      "Hakan Şükür (11 segundos)",
+      "Alan Shearer (8 segundos)",
+      "Robbie Keane (15 segundos)",
+      "Clint Dempsey (29 segundos)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a maior goleada da história das Copas do Mundo?",
+    "o": [
+      "Hungria 10x1 El Salvador (1982)",
+      "Brasil 7x1 Suécia (1950)",
+      "Uruguai 8x0 Bolívia (1950)",
+      "Alemanha 8x0 Arábia Saudita (2002)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o maior público registrado em uma partida de Copa do Mundo?",
+    "o": [
+      "199.854 pessoas no Maracanã em 1950",
+      "173.850 pessoas no Maracanã em 1950",
+      "165.000 pessoas no Azteca em 1970",
+      "180.000 pessoas no Rose Bowl em 1994"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem foi o único jogador expulso em uma final de Copa do Mundo?",
+    "o": [
+      "Cafu (Brasil, 2002)",
+      "Marco Materazzi (Itália, 2006)",
+      "Zinedine Zidane (França, 2006)",
+      "Arjen Robben (Holanda, 2010)"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção tem o recorde de mais participações em Copas do Mundo?",
+    "o": [
+      "Argentina",
+      "Alemanha",
+      "Brasil",
+      "Itália"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo foram marcados mais gols na história?",
+    "o": [
+      "França 1998 (171 gols)",
+      "Brasil 2014 (171 gols)",
+      "França 2018 (169 gols)",
+      "México 1970 (95 gols)"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos jogadores já disputaram 5 Copas do Mundo?",
+    "o": [
+      "Apenas 1 jogador",
+      "2 jogadores",
+      "3 jogadores",
+      "4 jogadores"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual goleiro defendeu mais pênaltis em Copas do Mundo?",
+    "o": [
+      "Claudio Taffarel",
+      "Sergio Goycochea",
+      "Jan Tomaszewski",
+      "Harald Schumacher"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo realizada em dois continentes diferentes?",
+    "o": [
+      "Coreia do Sul/Japão 2002",
+      "EUA/México/Canadá 2026",
+      "Rússia 2018",
+      "Qatar 2022"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas seleções participarão da Copa do Mundo de 2026?",
+    "o": [
+      "32 seleções",
+      "40 seleções",
+      "48 seleções",
+      "52 seleções"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador tem o recorde de mais partidas disputadas em Copas do Mundo?",
+    "o": [
+      "Pelé (14 jogos)",
+      "Uwe Seeler (16 jogos)",
+      "Lothar Matthäus (25 jogos)",
+      "Paolo Maldini (23 jogos)"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo ocorreu o primeiro hat-trick da história?",
+    "o": [
+      "Uruguai 1930",
+      "Itália 1934",
+      "França 1938",
+      "Brasil 1950"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual é o recorde de gols marcados por uma seleção em uma única Copa do Mundo?",
+    "o": [
+      "25 gols (Brasil 1970)",
+      "27 gols (Hungria 1954)",
+      "23 gols (França 1958)",
+      "21 gols (Brasil 2002)"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos estádios serão utilizados na Copa do Mundo de 2026?",
+    "o": [
+      "12 estádios",
+      "14 estádios",
+      "16 estádios",
+      "18 estádios"
+    ],
+    "c": 2,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a Copa do Mundo com menor número de gols por partida?",
+    "o": [
+      "Itália 1990",
+      "Inglaterra 1966",
+      "Espanha 1982",
+      "França 1938"
+    ],
+    "c": 0,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos jogadores foram expulsos na Copa do Mundo da África do Sul em 2010?",
+    "o": [
+      "15 jogadores",
+      "17 jogadores",
+      "19 jogadores",
+      "21 jogadores"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual goleiro tem o recorde de mais jogos sem sofrer gols em Copas do Mundo?",
+    "o": [
+      "Lev Yashin (5 jogos)",
+      "Fabien Barthez (10 jogos)",
+      "Walter Zenga (5 jogos)",
+      "Iker Casillas (8 jogos)"
+    ],
+    "c": 1,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo houve o maior número de prorrogações?",
+    "o": [
+      "Itália 1990 (6 prorrogações)",
+      "México 1986 (4 prorrogações)",
+      "Alemanha 2006 (4 prorrogações)",
+      "Brasil 2014 (8 prorrogações)"
+    ],
+    "c": 3,
+    "cat": "Recordes e Curiosidades",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano aconteceu a famosa final da Copa no Maracanã entre Brasil e Uruguai?",
+    "o": [
+      "1950",
+      "1954",
+      "1958",
+      "1962"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção venceu a final da Copa de 1970 contra a Itália?",
+    "o": [
+      "Argentina",
+      "Alemanha",
+      "Brasil",
+      "França"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A final da Copa de 1994 entre Brasil e Itália foi decidida como?",
+    "o": [
+      "Na prorrogação",
+      "Nos pênaltis",
+      "No tempo normal",
+      "Por gol de ouro"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual país sediou a final histórica de 1966 onde a Inglaterra foi campeã?",
+    "o": [
+      "França",
+      "Alemanha Ocidental",
+      "Inglaterra",
+      "México"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Na Copa de 1986, qual dupla de países disputou a final?",
+    "o": [
+      "Brasil x França",
+      "Argentina x Alemanha",
+      "Itália x França",
+      "Inglaterra x Argentina"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual placar da histórica final de 1970 entre Brasil e Itália?",
+    "o": [
+      "3x1",
+      "4x1",
+      "2x1",
+      "3x0"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em 1954, qual seleção era grande favorita mas perdeu a final para a Alemanha?",
+    "o": [
+      "Brasil",
+      "Hungria",
+      "Uruguai",
+      "França"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Pelé marcou na final da Copa de 1970?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A final da Copa de 2006 entre Itália e França ficou marcada por qual episódio?",
+    "o": [
+      "Gol de mão de Henry",
+      "Cabeçada de Zidane em Materazzi",
+      "Pênalti perdido por Baggio",
+      "Gol nos acréscimos"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador alemão marcou o gol do título na final de 2014 contra a Argentina?",
+    "o": [
+      "Thomas Müller",
+      "Mario Götze",
+      "Mesut Özil",
+      "Toni Kroos"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Na Copa de 1998, qual foi o placar da final França x Brasil?",
+    "o": [
+      "2x0",
+      "3x0",
+      "1x0",
+      "2x1"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos hat-tricks Mbappé fez na final da Copa de 2022?",
+    "o": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que estádio foi disputada a final da Copa de 1950?",
+    "o": [
+      "Estádio do Pacaembu",
+      "Maracanã",
+      "Morumbi",
+      "Estádio Nacional"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador perdeu o pênalti decisivo na final de 1994?",
+    "o": [
+      "Franco Baresi",
+      "Daniele Massaro",
+      "Roberto Baggio",
+      "Demetrio Albertini"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A final de 2022 foi para a prorrogação após qual placar no tempo normal?",
+    "o": [
+      "2x2",
+      "3x3",
+      "1x1",
+      "0x0"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual técnico comandou a Alemanha na conquista de 2014?",
+    "o": [
+      "Jürgen Klinsmann",
+      "Joachim Löw",
+      "Rudi Völler",
+      "Berti Vogts"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Na final de 1954, quantos gols a Hungria havia marcado na primeira fase contra a Alemanha?",
+    "o": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador inglês marcou o gol mais polêmico da final de 1966?",
+    "o": [
+      "Bobby Charlton",
+      "Geoff Hurst",
+      "Martin Peters",
+      "Alan Ball"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em 1982, a semifinal Itália x Brasil não foi uma final, mas qual foi o placar?",
+    "o": [
+      "3x1",
+      "3x2",
+      "2x1",
+      "4x2"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o goleiro titular da França na final de 1998?",
+    "o": [
+      "Fabien Barthez",
+      "Bernard Lama",
+      "Lionel Charbonnier",
+      "Grégory Coupet"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos minutos durou a prorrogação da final de 2014 até o gol de Götze?",
+    "o": [
+      "113",
+      "117",
+      "119",
+      "121"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Na final de 1986, quem marcou os dois gols da vitória argentina?",
+    "o": [
+      "Diego Maradona",
+      "Jorge Valdano",
+      "José Luis Brown",
+      "Jorge Burruchaga"
+    ],
+    "c": 3,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual árbitro apitou a polêmica final de 1966?",
+    "o": [
+      "Gottfried Dienst",
+      "Rudolf Kreitlein",
+      "Jim Finney",
+      "Leo Horn"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Na final de 2006, após quantas cobranças de pênalti a Itália venceu?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador brasileiro foi expulso na semifinal de 1986 contra a França, não jogando uma possível final?",
+    "o": [
+      "Zico",
+      "Sócrates",
+      "Falcão",
+      "Nenhum foi expulso"
+    ],
+    "c": 3,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que estádio foi disputada a final da Copa de 1950 entre Uruguai e Brasil?",
+    "o": [
+      "Maracanã (Rio de Janeiro)",
+      "Pacaembu (São Paulo)",
+      "Mineirão (Belo Horizonte)",
+      "Arena da Baixada (Curitiba)"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção quebrou o favoritismo na final de 1950, derrotando o Brasil em casa?",
+    "o": [
+      "Argentina",
+      "Paraguai",
+      "Uruguai",
+      "Chile"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em 1954, a Alemanha Ocidental derrotou qual seleção na final que ficou conhecida como 'Milagre de Berna'?",
+    "o": [
+      "Áustria",
+      "Hungria",
+      "Tchecoslováquia",
+      "Iugoslávia"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da final de 1970 entre Brasil e Itália no México?",
+    "o": [
+      "3x1",
+      "4x1",
+      "2x1",
+      "3x0"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem marcou o primeiro gol do Brasil na final de 1970 contra a Itália?",
+    "o": [
+      "Pelé",
+      "Jairzinho",
+      "Rivelino",
+      "Gérson"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que cidade foi disputada a final de 1982 entre Itália e Alemanha Ocidental?",
+    "o": [
+      "Roma",
+      "Madri",
+      "Barcelona",
+      "Milão"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador marcou o gol da vitória da Argentina na final de 1986?",
+    "o": [
+      "Diego Maradona",
+      "Jorge Burruchaga",
+      "Jorge Valdano",
+      "Claudio Caniggia"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "A final de 1994 entre Brasil e Itália foi decidida como?",
+    "o": [
+      "Na prorrogação",
+      "Nos pênaltis",
+      "No tempo normal por 2x1",
+      "No tempo normal por 1x0"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quem perdeu o pênalti decisivo para a Itália na final de 1994?",
+    "o": [
+      "Franco Baresi",
+      "Daniele Massaro",
+      "Roberto Baggio",
+      "Demetrio Albertini"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Zinedine Zidane marcou na final de 1998 contra o Brasil?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a polêmica envolvendo Ronaldo antes da final de 1998?",
+    "o": [
+      "Recebeu cartão vermelho no aquecimento",
+      "Teve uma convulsão horas antes do jogo",
+      "Foi flagrado em festa na véspera",
+      "Brigou com Zagallo no vestiário"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Na final de 2006, Zinedine Zidane foi expulso por dar uma cabeçada em qual jogador italiano?",
+    "o": [
+      "Gennaro Gattuso",
+      "Andrea Pirlo",
+      "Marco Materazzi",
+      "Francesco Totti"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual goleiro defendeu o pênalti de David Trezeguet na final de 2006?",
+    "o": [
+      "Gianluigi Buffon",
+      "Dida",
+      "Gianluigi Donnarumma",
+      "Angelo Peruzzi"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que minuto da prorrogação Mario Götze marcou o gol do título alemão em 2014?",
+    "o": [
+      "113º minuto",
+      "117º minuto",
+      "109º minuto",
+      "120º minuto"
+    ],
+    "c": 0,
+    "cat": "Finais Históricas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos gols Lionel Messi marcou na final de 2022 contra a França?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador francês marcou um hat-trick na final de 2022?",
+    "o": [
+      "Olivier Giroud",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Karim Benzema"
+    ],
+    "c": 2,
+    "cat": "Finais Históricas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A final de 2022 foi decidida nos pênaltis após qual placar no tempo regulamentar e prorrogação?",
+    "o": [
+      "2x2",
+      "3x3",
+      "1x1",
+      "4x4"
+    ],
+    "c": 1,
+    "cat": "Finais Históricas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo a Coreia do Sul chegou à semifinal pela primeira vez?",
+    "o": [
+      "2002",
+      "1998",
+      "2006",
+      "2010"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção africana derrotou a Argentina na abertura da Copa de 1990?",
+    "o": [
+      "Camarões",
+      "Nigéria",
+      "Marrocos",
+      "Senegal"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano os Estados Unidos eliminaram a Inglaterra em uma das maiores zebras da história das Copas?",
+    "o": [
+      "1950",
+      "1954",
+      "1958",
+      "1962"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Marrocos foi semifinalista em qual Copa do Mundo?",
+    "o": [
+      "2022",
+      "2018",
+      "2014",
+      "2010"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A Croácia chegou à final da Copa do Mundo pela primeira vez em:",
+    "o": [
+      "2018",
+      "2014",
+      "2010",
+      "2022"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o placar da vitória dos EUA sobre a Inglaterra na Copa de 1950?",
+    "o": [
+      "1 x 0",
+      "2 x 1",
+      "2 x 0",
+      "3 x 1"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Gana chegou às quartas de final em qual Copa do Mundo?",
+    "o": [
+      "2010",
+      "2006",
+      "2014",
+      "2018"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A Irlanda do Norte surpreendeu chegando às quartas de final na Copa de:",
+    "o": [
+      "1958",
+      "1962",
+      "1954",
+      "1966"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador marcou o gol da vitória de Camarões sobre a Argentina em 1990?",
+    "o": [
+      "François Omam-Biyik",
+      "Roger Milla",
+      "André Kana-Biyik",
+      "Stephen Tataw"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Na Copa de 2002, a Coreia do Sul eliminou qual grande seleção europeia nas quartas de final?",
+    "o": [
+      "Espanha",
+      "Alemanha",
+      "França",
+      "Itália"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção a Argélia surpreendeu ao vencer por 2x1 na Copa de 1982?",
+    "o": [
+      "Alemanha Ocidental",
+      "França",
+      "Espanha",
+      "Inglaterra"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas vitórias Camarões conquistou na Copa de 1990 até chegar às quartas?",
+    "o": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual seleção Gana foi eliminada nas quartas da Copa de 2010?",
+    "o": [
+      "Uruguai",
+      "Holanda",
+      "Espanha",
+      "Argentina"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Na semifinal da Copa de 2022, Marrocos foi derrotado por qual placar pela França?",
+    "o": [
+      "2 x 0",
+      "1 x 0",
+      "3 x 1",
+      "2 x 1"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a Coreia do Sul na campanha histórica de 2002?",
+    "o": [
+      "Guus Hiddink",
+      "Dick Advocaat",
+      "Carlos Queiroz",
+      "Pim Verbeek"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "A Croácia perdeu a final de 2018 para qual seleção?",
+    "o": [
+      "França",
+      "Bélgica",
+      "Inglaterra",
+      "Brasil"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que cidade brasileira a Alemanha foi surpreendida pela Argélia em 1982?",
+    "o": [
+      "Gijón",
+      "Sevilha",
+      "Madrid",
+      "Barcelona"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a colocação final da Coreia do Sul na Copa de 2002?",
+    "o": [
+      "4º lugar",
+      "3º lugar",
+      "5º lugar",
+      "6º lugar"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem eliminou a Irlanda do Norte nas quartas de final da Copa de 1958?",
+    "o": [
+      "França",
+      "Brasil",
+      "Suécia",
+      "Alemanha Ocidental"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual jogador de Gana perdeu o pênalti crucial contra o Uruguai nas quartas de 2010?",
+    "o": [
+      "Asamoah Gyan",
+      "Michael Essien",
+      "Sulley Muntari",
+      "Kevin-Prince Boateng"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Marrocos derrotou qual seleção nas oitavas de final da Copa de 2022?",
+    "o": [
+      "Espanha",
+      "Portugal",
+      "Bélgica",
+      "Croácia"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Na Copa de 1982, quantos gols a Argélia marcou na vitória sobre a Alemanha?",
+    "o": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o grupo da Coreia do Sul na Copa de 2002?",
+    "o": [
+      "Grupo D",
+      "Grupo A",
+      "Grupo B",
+      "Grupo C"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Camarões foi eliminada nas quartas de 1990 por qual seleção?",
+    "o": [
+      "Inglaterra",
+      "Itália",
+      "Argentina",
+      "Alemanha Ocidental"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual era o apelido do time da Croácia que chegou à final em 2018?",
+    "o": [
+      "Vatreni",
+      "Kockasti",
+      "Plavi",
+      "Crveni"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo a Coreia do Sul chegou às semifinais?",
+    "o": [
+      "A) 1998",
+      "B) 2002",
+      "C) 2006",
+      "D) 2010"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção africana derrotou a Argentina campeã mundial na estreia da Copa de 1990?",
+    "o": [
+      "A) Nigéria",
+      "B) Marrocos",
+      "C) Camarões",
+      "D) Costa do Marfim"
+    ],
+    "c": 2,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano os Estados Unidos eliminaram a Inglaterra numa das maiores zebras da história das Copas?",
+    "o": [
+      "A) 1950",
+      "B) 1954",
+      "C) 1962",
+      "D) 1966"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Até que fase a Irlanda do Norte chegou na Copa de 1958?",
+    "o": [
+      "A) Primeira fase",
+      "B) Oitavas de final",
+      "C) Quartas de final",
+      "D) Semifinal"
+    ],
+    "c": 2,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da vitória histórica de Marrocos sobre Portugal nas quartas de final da Copa de 2022?",
+    "o": [
+      "A) 2-1",
+      "B) 1-0",
+      "C) 3-2",
+      "D) 2-0"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Contra qual seleção europeia a Croácia venceu nas semifinais da Copa de 2018?",
+    "o": [
+      "A) França",
+      "B) Bélgica",
+      "C) Inglaterra",
+      "D) Rússia"
+    ],
+    "c": 2,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual cidade brasileira os EUA derrotaram a Inglaterra por 1 a 0 na Copa de 1950?",
+    "o": [
+      "A) Rio de Janeiro",
+      "B) São Paulo",
+      "C) Belo Horizonte",
+      "D) Porto Alegre"
+    ],
+    "c": 2,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a seleção da Coreia do Sul na campanha histórica de 2002?",
+    "o": [
+      "A) Guus Hiddink",
+      "B) Carlos Alberto Parreira",
+      "C) Bora Milutinovic",
+      "D) Dick Advocaat"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantos anos se passaram entre a primeira participação de Camarões em Copas e sua chegada às quartas em 1990?",
+    "o": [
+      "A) 8 anos",
+      "B) 12 anos",
+      "C) 16 anos",
+      "D) 20 anos"
+    ],
+    "c": 2,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual atacante marcou o gol da vitória dos EUA sobre a Inglaterra em 1950?",
+    "o": [
+      "A) Walter Bahr",
+      "B) Joe Gaetjens",
+      "C) Frank Borghi",
+      "D) Ed Souza"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa a Argélia participou pela primeira vez e causou surpresa?",
+    "o": [
+      "A) 1978",
+      "B) 1982",
+      "C) 1986",
+      "D) 1990"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a colocação final de Gana na Copa de 2010?",
+    "o": [
+      "A) Quartas de final",
+      "B) Oitavas de final",
+      "C) Quinta colocação",
+      "D) Sexta colocação"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Marrocos se tornou o primeiro país de qual continente a chegar às semifinais de uma Copa?",
+    "o": [
+      "A) Ásia",
+      "B) África",
+      "C) América do Norte",
+      "D) Oceania"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador da Croácia foi o artilheiro da Copa de 2018?",
+    "o": [
+      "A) Ivan Perisic",
+      "B) Mario Mandzukic",
+      "C) Luka Modric",
+      "D) Luka Modric"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A 'Controversa de Gijón' em 1982 prejudicou qual seleção que havia surpreendido na primeira fase?",
+    "o": [
+      "A) Argélia",
+      "B) Polônia",
+      "C) Hungria",
+      "D) El Salvador"
+    ],
+    "c": 0,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual era a idade de Roger Milla quando brilhou por Camarões na Copa de 1990?",
+    "o": [
+      "A) 35 anos",
+      "B) 38 anos",
+      "C) 40 anos",
+      "D) 42 anos"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas seleções africanas já chegaram às quartas de final de uma Copa do Mundo?",
+    "o": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "c": 1,
+    "cat": "Zebras e Surpresas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que estádio foi disputada a final da Copa do Mundo de 1950?",
+    "o": [
+      "Maracanã, Rio de Janeiro",
+      "Pacaembu, São Paulo",
+      "São Januário, Rio de Janeiro",
+      "Mineirão, Belo Horizonte"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual estádio sediou a final da Copa do Mundo de 1970 no México?",
+    "o": [
+      "Estádio Olímpico Universitário",
+      "Estádio Azteca",
+      "Estádio Jalisco",
+      "Estádio Cuauhtémoc"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "O Wembley sediou a final da Copa do Mundo em que ano?",
+    "o": [
+      "1962",
+      "1964",
+      "1966",
+      "1968"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o estádio da final da Copa do Mundo de 2022 no Catar?",
+    "o": [
+      "Al Bayt Stadium",
+      "Al Janoub Stadium",
+      "Lusail Stadium",
+      "Stadium 974"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que cidade alemã ficava o Estádio Olímpico que sediou a final da Copa de 2006?",
+    "o": [
+      "Munique",
+      "Hamburgo",
+      "Berlim",
+      "Frankfurt"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos países sediarão a Copa do Mundo de 2026?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual é o único estádio a sediar duas finais de Copa do Mundo?",
+    "o": [
+      "Maracanã",
+      "Estádio Azteca",
+      "Wembley",
+      "Rose Bowl"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que anos o Estádio Azteca sediou finais de Copa do Mundo?",
+    "o": [
+      "1970 e 1986",
+      "1968 e 1986",
+      "1970 e 1982",
+      "1974 e 1986"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual estádio norte-americano sediou a final da Copa do Mundo de 1994?",
+    "o": [
+      "Soldier Field",
+      "Giants Stadium",
+      "Rose Bowl",
+      "Cotton Bowl"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O Estádio Centenário, palco da primeira final de Copa do Mundo, fica em que cidade?",
+    "o": [
+      "Buenos Aires",
+      "Montevidéu",
+      "Santiago",
+      "Lima"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual estádio sediou a final da Copa do Mundo de 2010 na África do Sul?",
+    "o": [
+      "Ellis Park",
+      "Soccer City",
+      "Cape Town Stadium",
+      "Moses Mabhida"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que estádio foi disputada a final da Copa do Mundo de 1998 na França?",
+    "o": [
+      "Stade de France",
+      "Parc des Princes",
+      "Stade Vélodrome",
+      "Stade de Lyon"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual será a cidade sede da final da Copa do Mundo de 2026?",
+    "o": [
+      "Los Angeles",
+      "Nova York",
+      "Cidade do México",
+      "Toronto"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O MetLife Stadium, uma das sedes da Copa 2026, fica entre quais duas cidades?",
+    "o": [
+      "Nova York e Filadélfia",
+      "Nova York e New Jersey",
+      "Boston e Nova York",
+      "Washington e Nova York"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a capacidade oficial do Maracanã durante a Copa do Mundo de 1950?",
+    "o": [
+      "173.850",
+      "199.854",
+      "205.000",
+      "220.000"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Que estádio sediou a semifinal Brasil x França na Copa de 2006?",
+    "o": [
+      "Allianz Arena",
+      "Olympiastadion Berlin",
+      "Signal Iduna Park",
+      "Veltins-Arena"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "O Stadium 974, usado na Copa 2022, foi único por qual característica?",
+    "o": [
+      "Maior capacidade do torneio",
+      "Primeiro estádio subterrâneo",
+      "Feito com contêineres e desmontável",
+      "Climatização externa"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual estádio italiano sediou a final da Copa do Mundo de 1990?",
+    "o": [
+      "San Siro",
+      "Stadio delle Alpi",
+      "Stadio Olimpico",
+      "Stadio San Paolo"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantas cidades será disputada a Copa do Mundo de 2026?",
+    "o": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o primeiro estádio com teto retrátil a sediar uma final de Copa?",
+    "o": [
+      "Lusail Stadium",
+      "Soccer City",
+      "Luzhniki",
+      "Allianz Arena"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "O Estádio Nacional de Brasília foi inaugurado especialmente para qual Copa do Mundo?",
+    "o": [
+      "2010",
+      "2014",
+      "2018",
+      "2022"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual cidade brasileira não sediou jogos na Copa do Mundo de 2014?",
+    "o": [
+      "Cuiabá",
+      "Manaus",
+      "Florianópolis",
+      "Natal"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O Luzhniki, estádio da final de 2018, fica em que cidade?",
+    "o": [
+      "São Petersburgo",
+      "Moscou",
+      "Sochi",
+      "Kazan"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual estádio canadense será sede na Copa de 2026?",
+    "o": [
+      "Rogers Place",
+      "Olympic Stadium",
+      "BMO Field",
+      "BC Place"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano o novo Wembley foi inaugurado, substituindo o antigo?",
+    "o": [
+      "2005",
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual estádio brasileiro foi palco da final da Copa do Mundo de 1950?",
+    "o": [
+      "Morumbi",
+      "Mineirão",
+      "Maracanã",
+      "Arena da Baixada"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "O Estádio Azteca, no México, tem a particularidade de ter sediado quantas finais de Copa do Mundo?",
+    "o": [
+      "Uma",
+      "Duas",
+      "Três",
+      "Nenhuma"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que cidade ficava o antigo Wembley, palco da final de 1966?",
+    "o": [
+      "Manchester",
+      "Liverpool",
+      "Londres",
+      "Birmingham"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi a capacidade oficial do Estádio Olímpico de Berlim durante a Copa do Mundo de 2006?",
+    "o": [
+      "74.475",
+      "80.000",
+      "69.000",
+      "85.500"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "O Lusail Stadium, palco da final da Copa do Qatar 2022, tem capacidade para quantos torcedores?",
+    "o": [
+      "75.000",
+      "88.966",
+      "80.000",
+      "90.000"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos países sediarão conjuntamente a Copa do Mundo de 2026?",
+    "o": [
+      "Dois",
+      "Três",
+      "Quatro",
+      "Cinco"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual estádio americano sediará a final da Copa do Mundo de 2026?",
+    "o": [
+      "SoFi Stadium",
+      "MetLife Stadium",
+      "AT&T Stadium",
+      "Mercedes-Benz Stadium"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo o Maracanã teve sua maior capacidade registrada oficialmente?",
+    "o": [
+      "1950",
+      "2014",
+      "1978",
+      "1970"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual cidade mexicana abrigará jogos da Copa do Mundo de 2026?",
+    "o": [
+      "Guadalajara",
+      "Monterrey",
+      "Cidade do México",
+      "Todas as anteriores"
+    ],
+    "c": 3,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O Estádio Centenário, em Montevidéu, foi palco da primeira final de Copa em que ano?",
+    "o": [
+      "1928",
+      "1930",
+      "1932",
+      "1934"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual dessas características era exclusiva do design do Al Bayt Stadium na Copa do Qatar 2022?",
+    "o": [
+      "Formato de tenda beduína",
+      "Teto totalmente transparente",
+      "Campo suspenso",
+      "Arquibancadas móveis"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual cidade americana ficará o AT&T Stadium que receberá jogos em 2026?",
+    "o": [
+      "Dallas",
+      "Houston",
+      "Austin",
+      "San Antonio"
+    ],
+    "c": 0,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos estádios diferentes foram utilizados na Copa do Mundo do Qatar 2022?",
+    "o": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O Rose Bowl, que sediou a final de 1994, fica em qual estado americano?",
+    "o": [
+      "Texas",
+      "Flórida",
+      "Califórnia",
+      "Nova York"
+    ],
+    "c": 2,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o nome oficial do estádio que sediou a abertura da Copa da África do Sul em 2010?",
+    "o": [
+      "Ellis Park",
+      "Soccer City",
+      "Green Point",
+      "Loftus Versfeld"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Toronto será sede da Copa 2026. Em qual estádio os jogos serão realizados?",
+    "o": [
+      "Rogers Centre",
+      "BMO Field",
+      "Scotiabank Arena",
+      "Tim Hortons Field"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a particularidade climática mais desafiadora enfrentada pelos estádios da Copa do Qatar?",
+    "o": [
+      "Chuvas intensas",
+      "Temperaturas extremamente altas",
+      "Ventos fortes",
+      "Neve inesperada"
+    ],
+    "c": 1,
+    "cat": "Estádios e Sedes",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos títulos mundiais a Alemanha conquistou até 2022?",
+    "o": [
+      "3 títulos",
+      "4 títulos",
+      "5 títulos",
+      "2 títulos"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano a Itália conquistou seu quarto título mundial?",
+    "o": [
+      "2018",
+      "2021",
+      "2022",
+      "2019"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A França conquistou a Copa do Mundo em casa pela primeira vez em que ano?",
+    "o": [
+      "1982",
+      "1986",
+      "1998",
+      "2002"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção europeia venceu a Copa do Mundo de 2010 na África do Sul?",
+    "o": [
+      "Alemanha",
+      "França",
+      "Holanda",
+      "Espanha"
+    ],
+    "c": 3,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa do Mundo a Inglaterra conquistou seu único título?",
+    "o": [
+      "1962",
+      "1966",
+      "1970",
+      "1974"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas finais de Copa do Mundo a Holanda perdeu sem nunca conquistar o título?",
+    "o": [
+      "2 finais",
+      "3 finais",
+      "4 finais",
+      "1 final"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador português foi artilheiro da Copa do Mundo de 1966?",
+    "o": [
+      "Cristiano Ronaldo",
+      "Rui Costa",
+      "Eusébio",
+      "Luís Figo"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copas do Mundo a Alemanha foi tetracampeã mundial?",
+    "o": [
+      "1954, 1974, 1990, 2014",
+      "1950, 1974, 1990, 2014",
+      "1954, 1970, 1990, 2014",
+      "1958, 1974, 1990, 2014"
+    ],
+    "c": 0,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da final da Copa de 1998 entre França e Brasil?",
+    "o": [
+      "2x0 para a França",
+      "3x0 para a França",
+      "1x0 para a França",
+      "4x1 para a França"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A Itália conquistou títulos mundiais em quais anos?",
+    "o": [
+      "1934, 1938, 1982, 2021",
+      "1934, 1938, 1982, 2006",
+      "1930, 1938, 1982, 2006",
+      "1934, 1950, 1982, 2006"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem eliminou a Espanha na Copa de 2014 após ser campeã em 2010?",
+    "o": [
+      "Holanda",
+      "Chile",
+      "Austrália",
+      "Brasil"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual estádio sediou a final da Copa de 1966 quando a Inglaterra foi campeã?",
+    "o": [
+      "Old Trafford",
+      "Anfield",
+      "Stamford Bridge",
+      "Wembley"
+    ],
+    "c": 3,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A Holanda perdeu finais de Copa do Mundo em quais anos?",
+    "o": [
+      "1974, 1978, 2010",
+      "1974, 1978, 2014",
+      "1978, 2010, 2014",
+      "1970, 1974, 2010"
+    ],
+    "c": 0,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a Alemanha no título de 2014?",
+    "o": [
+      "Jürgen Klinsmann",
+      "Joachim Löw",
+      "Franz Beckenbauer",
+      "Rudi Völler"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Eusébio marcou na Copa de 1966?",
+    "o": [
+      "7 gols",
+      "8 gols",
+      "9 gols",
+      "6 gols"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "A Iugoslávia participou de quantas Copas do Mundo antes da dissolução do país?",
+    "o": [
+      "6 Copas",
+      "8 Copas",
+      "9 Copas",
+      "7 Copas"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi o melhor resultado de Portugal em Copas do Mundo?",
+    "o": [
+      "Vice-campeão",
+      "3º lugar",
+      "4º lugar",
+      "Semifinal"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo Cristiano Ronaldo estreou pela seleção portuguesa?",
+    "o": [
+      "2002",
+      "2006",
+      "2010",
+      "2014"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção eliminou a França na final da Copa de 2006?",
+    "o": [
+      "Brasil",
+      "Alemanha",
+      "Itália",
+      "Argentina"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A Alemanha perdeu uma final de Copa do Mundo para qual seleção sul-americana?",
+    "o": [
+      "Brasil em 2002",
+      "Argentina em 1986",
+      "Brasil em 1950",
+      "Argentina em 2014"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual era o apelido da geração iugoslava dos anos 1990 que não pôde disputar Copas por sanções?",
+    "o": [
+      "Geração de Ouro",
+      "Geração Perdida",
+      "Geração Dourada",
+      "Geração Mágica"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o artilheiro da Espanha na Copa de 2010?",
+    "o": [
+      "Fernando Torres",
+      "Raúl González",
+      "David Villa",
+      "Xavi Hernández"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A Copa do Mundo de 2026 será sediada por três países. Qual seleção europeia tradicionalmente forte não estará automaticamente classificada?",
+    "o": [
+      "Alemanha",
+      "França",
+      "Espanha",
+      "Todas terão que se classificar"
+    ],
+    "c": 3,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o placar da semifinal Brasil x Alemanha na Copa de 2014?",
+    "o": [
+      "3x1 para a Alemanha",
+      "5x0 para a Alemanha",
+      "7x1 para a Alemanha",
+      "4x0 para a Alemanha"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "A Iugoslávia chegou às semifinais de Copa do Mundo em quais edições?",
+    "o": [
+      "1930 e 1950",
+      "1930 e 1962",
+      "1950 e 1962",
+      "1962 e 1974"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo a Alemanha conquistou?",
+    "o": [
+      "3 títulos",
+      "4 títulos",
+      "5 títulos",
+      "2 títulos"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano a Itália conquistou seu quarto título mundial?",
+    "o": [
+      "2010",
+      "2018",
+      "2021",
+      "2006"
+    ],
+    "c": 3,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção a França derrotou na final da Copa de 1998?",
+    "o": [
+      "Brasil",
+      "Alemanha",
+      "Itália",
+      "Argentina"
+    ],
+    "c": 0,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo a Inglaterra conquistou seu único título?",
+    "o": [
+      "1962",
+      "1970",
+      "1966",
+      "1974"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantas finais de Copa do Mundo a Holanda perdeu?",
+    "o": [
+      "2 finais",
+      "4 finais",
+      "3 finais",
+      "1 final"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quem foi o artilheiro de Portugal na Copa de 1966?",
+    "o": [
+      "Cristiano Ronaldo",
+      "Eusébio",
+      "Luís Figo",
+      "Rui Costa"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o resultado da final da Copa de 2010 entre Espanha e Holanda?",
+    "o": [
+      "2-0 para Espanha",
+      "1-0 para Espanha",
+      "3-1 para Espanha",
+      "2-1 para Espanha"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo a Alemanha Ocidental conquistou seu primeiro título?",
+    "o": [
+      "1950",
+      "1958",
+      "1954",
+      "1962"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a França nas conquistas de 1998 e 2018?",
+    "o": [
+      "Didier Deschamps comandou ambas",
+      "Aimé Jacquet em 1998 e Didier Deschamps em 2018",
+      "Michel Platini em ambas",
+      "Raymond Domenech em 1998 e Didier Deschamps em 2018"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual seleção a Itália perdeu a final da Copa de 1994?",
+    "o": [
+      "Argentina",
+      "Alemanha",
+      "Brasil",
+      "França"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que posição Portugal terminou na Copa de 1966?",
+    "o": [
+      "4º lugar",
+      "3º lugar",
+      "2º lugar",
+      "Quartas de final"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a melhor colocação da Espanha em Copas antes de 2010?",
+    "o": [
+      "Semifinais",
+      "Quartas de final",
+      "Oitavas de final",
+      "4º lugar"
+    ],
+    "c": 3,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que estádio a Inglaterra conquistou a Copa de 1966?",
+    "o": [
+      "Old Trafford",
+      "Stamford Bridge",
+      "Wembley",
+      "Emirates Stadium"
+    ],
+    "c": 2,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Quantos gols Eusébio marcou na Copa de 1966?",
+    "o": [
+      "7 gols",
+      "9 gols",
+      "8 gols",
+      "6 gols"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a Alemanha na conquista de 2014?",
+    "o": [
+      "Jürgen Klinsmann",
+      "Joachim Löw",
+      "Franz Beckenbauer",
+      "Rudi Völler"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa a Holanda chegou à final pela primeira vez?",
+    "o": [
+      "1978",
+      "1974",
+      "1982",
+      "1970"
+    ],
+    "c": 1,
+    "cat": "Seleções Europeias",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o último ano em que a Iugoslávia disputou uma Copa do Mundo?",
+    "o": [
+      "1990",
+      "1986",
+      "1982",
+      "1998"
+    ],
+    "c": 0,
+    "cat": "Seleções Europeias",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo o Brasil conquistou ao longo de sua história?",
+    "o": [
+      "3 títulos",
+      "4 títulos",
+      "5 títulos",
+      "6 títulos"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano a Argentina conquistou sua segunda Copa do Mundo com Messi?",
+    "o": [
+      "2018",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção sul-americana foi a primeira campeã mundial da história?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Chile"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Diego Maradona foi campeão mundial em qual Copa do Mundo?",
+    "o": [
+      "Espanha 1982",
+      "México 1986",
+      "Itália 1990",
+      "Argentina 1978"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi a melhor colocação do Chile em Copas do Mundo?",
+    "o": [
+      "Quarto lugar",
+      "Terceiro lugar",
+      "Semifinalista",
+      "Finalista"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo o Peru teve sua participação mais marcante na era moderna?",
+    "o": [
+      "México 1970",
+      "Argentina 1978",
+      "Espanha 1982",
+      "Rússia 2018"
+    ],
+    "c": 3,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas Copas do Mundo o Uruguai conquistou?",
+    "o": [
+      "1 título",
+      "2 títulos",
+      "3 títulos",
+      "Nenhum título"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual artilheiro brasileiro foi decisivo na conquista do pentacampeonato em 2002?",
+    "o": [
+      "Rivaldo",
+      "Ronaldinho Gaúcho",
+      "Ronaldo Fenômeno",
+      "Kaká"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa do Mundo a Colômbia teve sua melhor campanha histórica?",
+    "o": [
+      "Itália 1990",
+      "Estados Unidos 1994",
+      "Brasil 2014",
+      "Rússia 2018"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Que jogador paraguaio se destacou como um dos melhores goleiros das Copas dos anos 90 e 2000?",
+    "o": [
+      "José Luis Chilavert",
+      "Justo Villar",
+      "Aldo Bobadilla",
+      "Gatito Fernández"
+    ],
+    "c": 0,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a primeira Copa do Mundo que o Equador conseguiu se classificar?",
+    "o": [
+      "França 1998",
+      "Coreia/Japão 2002",
+      "Alemanha 2006",
+      "África do Sul 2010"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo o Brasil conquistou seu primeiro título mundial?",
+    "o": [
+      "Suécia 1958",
+      "Chile 1962",
+      "México 1970",
+      "Brasil 1950"
+    ],
+    "c": 0,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador colombiano foi artilheiro da Copa de 2014?",
+    "o": [
+      "Radamel Falcao",
+      "Carlos Bacca",
+      "James Rodríguez",
+      "Juan Cuadrado"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "O Uruguai foi campeão da primeira Copa do Mundo em que ano?",
+    "o": [
+      "1928",
+      "1930",
+      "1934",
+      "1932"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção sul-americana eliminou o Brasil na Copa de 1950, impedindo o primeiro título em casa?",
+    "o": [
+      "Argentina",
+      "Uruguai",
+      "Chile",
+      "Peru"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em quantas Copas do Mundo consecutivas o Paraguai se classificou durante sua melhor fase?",
+    "o": [
+      "2 Copas",
+      "3 Copas",
+      "4 Copas",
+      "5 Copas"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual técnico comandou a Argentina na conquista da Copa de 2022?",
+    "o": [
+      "Jorge Sampaoli",
+      "Lionel Scaloni",
+      "Gerardo Martino",
+      "Diego Simeone"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "O Chile sediou uma Copa do Mundo em qual ano?",
+    "o": [
+      "1950",
+      "1962",
+      "1970",
+      "Nunca sediou"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da final da Copa de 1970 entre Brasil e Itália?",
+    "o": [
+      "3x1",
+      "4x1",
+      "2x1",
+      "3x2"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa o Peru chegou às quartas de final pela última vez?",
+    "o": [
+      "México 1970",
+      "Argentina 1978",
+      "Espanha 1982",
+      "México 1986"
+    ],
+    "c": 0,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o capitão da seleção brasileira na conquista do pentacampeonato?",
+    "o": [
+      "Ronaldo",
+      "Rivaldo",
+      "Cafu",
+      "Roberto Carlos"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "A Copa do Mundo de 2026 será disputada em quantos países, incluindo participação sul-americana?",
+    "o": [
+      "2 países",
+      "3 países",
+      "4 países",
+      "Apenas nos EUA"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual jogador equatoriano se destacou como artilheiro de sua seleção em Copas do Mundo?",
+    "o": [
+      "Agustín Delgado",
+      "Antonio Valencia",
+      "Enner Valencia",
+      "Jefferson Montero"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em qual Copa do Mundo a Venezuela fez sua estreia?",
+    "o": [
+      "Rússia 2018",
+      "Qatar 2022",
+      "Brasil 2014",
+      "Nunca se classificou"
+    ],
+    "c": 3,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols Pelé marcou em Copas do Mundo ao longo de sua carreira?",
+    "o": [
+      "10 gols",
+      "12 gols",
+      "14 gols",
+      "16 gols"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo o Brasil conquistou?",
+    "o": [
+      "4 títulos",
+      "5 títulos",
+      "6 títulos",
+      "3 títulos"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano a Argentina conquistou seu primeiro título mundial?",
+    "o": [
+      "1986",
+      "1978",
+      "1982",
+      "1974"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção sul-americana venceu a primeira Copa do Mundo da história?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Chile"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa do Mundo Diego Maradona marcou o famoso gol com a 'Mão de Deus'?",
+    "o": [
+      "México 1986",
+      "Espanha 1982",
+      "Itália 1990",
+      "Argentina 1978"
+    ],
+    "c": 0,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas vezes o Uruguai foi campeão mundial?",
+    "o": [
+      "1 vez",
+      "2 vezes",
+      "3 vezes",
+      "4 vezes"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa do Mundo o Chile chegou ao terceiro lugar jogando em casa?",
+    "o": [
+      "1962",
+      "1966",
+      "1974",
+      "1982"
+    ],
+    "c": 0,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a melhor colocação da Colômbia em Copas do Mundo?",
+    "o": [
+      "Oitavas de final",
+      "Quartas de final",
+      "Semifinal",
+      "Fase de grupos"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em qual Copa o Paraguai teve sua melhor campanha, chegando às oitavas de final?",
+    "o": [
+      "França 1998",
+      "África do Sul 2010",
+      "Coreia/Japão 2002",
+      "Alemanha 2006"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas Copas do Mundo a seleção brasileira disputou consecutivamente desde 1930?",
+    "o": [
+      "Todas exceto 1950",
+      "Todas exceto 1934 e 1938",
+      "Todas desde 1930",
+      "Todas exceto 1930"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quem foi o artilheiro da Copa de 1978 quando a Argentina foi campeã?",
+    "o": [
+      "Diego Maradona",
+      "Mario Kempes",
+      "Daniel Passarella",
+      "Osvaldo Ardiles"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo o Equador fez sua estreia?",
+    "o": [
+      "França 1998",
+      "Coreia/Japão 2002",
+      "Alemanha 2006",
+      "Brasil 2014"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção sul-americana nunca se classificou para uma Copa do Mundo?",
+    "o": [
+      "Bolívia",
+      "Venezuela",
+      "Equador",
+      "Paraguai"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em qual Copa Messi finalmente conquistou seu primeiro título mundial?",
+    "o": [
+      "Brasil 2014",
+      "Rússia 2018",
+      "Catar 2022",
+      "Ainda não conquistou"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual foi o primeiro país sul-americano a sediar uma Copa do Mundo?",
+    "o": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Chile"
+    ],
+    "c": 2,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas seleções sul-americanas estarão na Copa do Mundo de 2026?",
+    "o": [
+      "6 seleções",
+      "6,5 seleções (6 diretas + 1 repescagem)",
+      "7 seleções",
+      "5 seleções"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo o Peru participou pela última vez?",
+    "o": [
+      "México 1986",
+      "Rússia 2018",
+      "Brasil 2014",
+      "França 1998"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual técnico comandou a seleção brasileira no pentacampeonato de 2002?",
+    "o": [
+      "Carlos Alberto Parreira",
+      "Luiz Felipe Scolari",
+      "Mário Zagallo",
+      "Telê Santana"
+    ],
+    "c": 1,
+    "cat": "Seleções Sul-Americanas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção africana foi a primeira a chegar às semifinais de uma Copa do Mundo?",
+    "o": [
+      "Marrocos",
+      "Camarões",
+      "Senegal",
+      "Gana"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que ano o Marrocos se tornou o primeiro país africano a disputar uma semifinal de Copa do Mundo?",
+    "o": [
+      "2018",
+      "2022",
+      "2014",
+      "2010"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual seleção asiática chegou às semifinais da Copa de 2002?",
+    "o": [
+      "Japão",
+      "Coreia do Sul",
+      "Arábia Saudita",
+      "Irã"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Roger Milla se tornou famoso jogando por qual seleção africana nas Copas do Mundo?",
+    "o": [
+      "Nigéria",
+      "Gana",
+      "Camarões",
+      "Costa do Marfim"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Em que Copa do Mundo o Senegal surpreendeu chegando às quartas de final?",
+    "o": [
+      "1998",
+      "2002",
+      "2006",
+      "2010"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas vezes o Japão participou de Copas do Mundo consecutivas entre 1998 e 2022?",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o melhor resultado da Austrália em Copas do Mundo?",
+    "o": [
+      "Oitavas de final",
+      "Quartas de final",
+      "Segunda fase",
+      "Fase de grupos"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em quantas Copas do Mundo a Nigéria participou durante a década de 1990?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Contra qual seleção Gana perdeu nas quartas de final da Copa de 2010?",
+    "o": [
+      "Alemanha",
+      "Argentina",
+      "Uruguai",
+      "Holanda"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador ganês perdeu o pênalti decisivo contra o Uruguai nas quartas de final de 2010?",
+    "o": [
+      "Asamoah Gyan",
+      "Michael Essien",
+      "Sulley Muntari",
+      "Kevin-Prince Boateng"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que Copa do Mundo Roger Milla se tornou o jogador mais velho a marcar gol?",
+    "o": [
+      "1990",
+      "1994",
+      "1986",
+      "1998"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual foi a primeira seleção que o Marrocos eliminou no mata-mata da Copa de 2022?",
+    "o": [
+      "França",
+      "Espanha",
+      "Portugal",
+      "Croácia"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos gols a Coreia do Sul marcou em sua campanha até as semifinais em 2002?",
+    "o": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção européia o Senegal derrotou na estreia da Copa de 2002?",
+    "o": [
+      "França",
+      "Itália",
+      "Espanha",
+      "Inglaterra"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que ano Camarões chegou às quartas de final pela primeira vez?",
+    "o": [
+      "1982",
+      "1986",
+      "1990",
+      "1994"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual técnico comandou a Coreia do Sul nas semifinais de 2002?",
+    "o": [
+      "Guus Hiddink",
+      "Carlos Queiroz",
+      "Marcello Lippi",
+      "Sven-Göran Eriksson"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Contra qual seleção a Nigéria fez sua estreia em Copas do Mundo?",
+    "o": [
+      "Argentina",
+      "Bulgária",
+      "Brasil",
+      "Grécia"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em quantas Copas do Mundo Gana participou até 2022?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o placar da vitória do Japão sobre a Espanha na Copa de 2022?",
+    "o": [
+      "1-0",
+      "2-1",
+      "3-1",
+      "2-0"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantos anos tinha Roger Milla quando marcou gols na Copa de 1994?",
+    "o": [
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção eliminou Camarões nas quartas de final da Copa de 1990?",
+    "o": [
+      "Alemanha Ocidental",
+      "Argentina",
+      "Inglaterra",
+      "Itália"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Em que grupo o Marrocos ficou na Copa de 2022?",
+    "o": [
+      "Grupo E",
+      "Grupo F",
+      "Grupo G",
+      "Grupo H"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o resultado do jogo entre Senegal e Uruguai nas quartas de final de 2002?",
+    "o": [
+      "Senegal 1-0",
+      "Uruguai 1-0",
+      "Senegal 2-1",
+      "Uruguai 3-2 nos pênaltis"
+    ],
+    "c": 3,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Quantas seleções africanas participaram da Copa do Mundo de 2022?",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "easy"
+  },
+  {
+    "q": "Qual artilheiro sul-coreano se destacou na campanha das semifinais de 2002?",
+    "o": [
+      "Park Ji-sung",
+      "Ahn Jung-hwan",
+      "Seol Ki-hyeon",
+      "Lee Chun-soo"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "hard"
+  },
+  {
+    "q": "Qual seleção eliminou Marrocos na semifinal da Copa do Mundo de 2022?",
+    "o": [
+      "França",
+      "Argentina",
+      "Croácia",
+      "Brasil"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo a Coreia do Sul chegou às semifinais?",
+    "o": [
+      "1998",
+      "2002",
+      "2006",
+      "2010"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi a dancinha característica de Roger Milla após marcar gols na Copa de 1990?",
+    "o": [
+      "Dança da chuva",
+      "Dança do robô",
+      "Dança da bandeira de escanteio",
+      "Dança do samba"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual seleção africana chegou às quartas de final da Copa de 2002 pela primeira vez?",
+    "o": [
+      "Marrocos",
+      "Nigéria",
+      "Senegal",
+      "Tunísia"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo o Japão sediou o torneio pela primeira vez?",
+    "o": [
+      "1998",
+      "2002",
+      "2006",
+      "2010"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual confederação a Austrália representou quando chegou às oitavas de final em 2006?",
+    "o": [
+      "AFC (Ásia)",
+      "OFC (Oceania)",
+      "CONMEBOL (América do Sul)",
+      "UEFA (Europa)"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Quantas vezes a Nigéria participou de Copas do Mundo durante a década de 1990?",
+    "o": [
+      "1 vez",
+      "2 vezes",
+      "3 vezes",
+      "4 vezes"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual jogador de Gana desperdiçou um pênalti crucial contra o Uruguai nas quartas de final de 2010?",
+    "o": [
+      "Michael Essien",
+      "Asamoah Gyan",
+      "Sulley Muntari",
+      "Kevin-Prince Boateng"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que cidade Camarões venceu a Argentina por 1 a 0 na Copa de 1990?",
+    "o": [
+      "Roma",
+      "Milão",
+      "Nápoles",
+      "Turim"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual foi o primeiro país asiático a sediar uma Copa do Mundo?",
+    "o": [
+      "Japão",
+      "Coreia do Sul",
+      "China",
+      "Catar"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Contra qual seleção europeia o Marrocos venceu nas oitavas de final da Copa de 2022?",
+    "o": [
+      "Bélgica",
+      "Espanha",
+      "Croácia",
+      "Portugal"
+    ],
+    "c": 1,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Em que Copa do Mundo a Austrália mudou da OFC para a AFC?",
+    "o": [
+      "2002",
+      "2006",
+      "2010",
+      "2014"
+    ],
+    "c": 2,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  },
+  {
+    "q": "Qual técnico comandou a Coreia do Sul na campanha histórica das semifinais em 2002?",
+    "o": [
+      "Guus Hiddink",
+      "Carlos Alberto Parreira",
+      "Luiz Felipe Scolari",
+      "Marcello Lippi"
+    ],
+    "c": 0,
+    "cat": "África e Ásia nas Copas",
+    "difficulty": "medium"
+  }
+]
