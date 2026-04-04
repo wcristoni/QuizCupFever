@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+*.log
+scripts/cupfever-questions-*.json
+scripts/seed-cupfever-generated-*.js
+src/.DS_Store
