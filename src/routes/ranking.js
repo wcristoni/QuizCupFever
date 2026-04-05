@@ -127,11 +127,11 @@ router.post('/sync', async (req, res) => {
 
     // Bayesian score: adj_accuracy × log_confidence × 1000
     const ALPHA = 3, BETA = 3, C_MAX = 30;
-    const correct = player.totalWeightedCorrect  || player.totalCorrect   || 0;
-    const total   = player.totalWeightedQuestions|| player.totalQuestions || 0;
-    const games   = player.totalGames || 0;
-    const adjAcc  = total > 0 ? (correct + ALPHA) / (total + ALPHA + BETA) : 0;
-    const conf    = Math.min(Math.log(1 + games) / Math.log(1 + C_MAX), 1);
+    const pCorrect = player.totalWeightedCorrect  || player.totalCorrect   || 0;
+    const pTotal   = player.totalWeightedQuestions|| player.totalQuestions || 0;
+    const pGames   = player.totalGames || 0;
+    const adjAcc   = pTotal > 0 ? (pCorrect + ALPHA) / (pTotal + ALPHA + BETA) : 0;
+    const conf     = Math.min(Math.log(1 + pGames) / Math.log(1 + C_MAX), 1);
     const rankScore = Math.round(adjAcc * conf * 1000);
 
     await Player.updateOne({ _id: player._id }, { $set: { rankScore } });
