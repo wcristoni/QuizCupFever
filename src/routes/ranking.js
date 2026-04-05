@@ -12,33 +12,50 @@ router.get('/', async (req, res) => {
       return res.json({ success: true, updatedAt: new Date().toISOString(), count: 0, ranking: [] });
     }
 
-    const now      = Date.now();
-    const maxGames = Math.max(...players.map(p => p.totalGames || 0), 1);
+    const now = Date.now();
+
+    // ── Bayesian Adjusted Accuracy + Log Confidence ──────────────────────────
+    // Formula: score = adj_accuracy × confidence × 1000
+    // adj_accuracy = (correct + α) / (total + α + β)   [Laplace smoothing]
+    // confidence   = log(1 + games) / log(1 + C)        [log scaling, capped 1]
+    // α=3, β=3 (prior pessimista), C=30 (jogos para confiança máxima)
+    const ALPHA = 3, BETA = 3, C_MAX = 30;
+
+    function bayesianScore(games, correct, total) {
+      if (total === 0) return 0;
+      const adjAcc    = (correct + ALPHA) / (total + ALPHA + BETA);
+      const confidence = Math.min(Math.log(1 + games) / Math.log(1 + C_MAX), 1);
+      return Math.round(adjAcc * confidence * 1000);
+    }
 
     const ranked = players
       .map(p => {
-        const wAcc = p.totalWeightedQuestions > 0
-          ? p.totalWeightedCorrect / p.totalWeightedQuestions
-          : p.totalQuestions > 0 ? p.totalCorrect / p.totalQuestions : 0;
+        const games   = p.totalGames            || 0;
+        const correct = p.totalWeightedCorrect  || p.totalCorrect   || 0;
+        const total   = p.totalWeightedQuestions|| p.totalQuestions || 0;
 
-        const vol     = Math.min((p.totalGames || 0) / maxGames, 1);
-        const cutoff  = new Date(now - 30 * 24 * 60 * 60 * 1000);
-        const recent  = (p.recentSessions || []).filter(s => new Date(s.playedAt) >= cutoff).length;
-        const freq    = Math.min(recent / 30, 1);
-        const rankScore = Math.round((wAcc * 0.7 + vol * 0.2 + freq * 0.1) * 1000);
-
-        const accuracy = p.totalQuestions > 0
-          ? Math.round((p.totalCorrect / p.totalQuestions) * 100) : 0;
+        const rankScore  = bayesianScore(games, correct, total);
+        const accuracy   = total > 0 ? Math.round((p.totalCorrect / p.totalQuestions) * 100) : 0;
+        const adjAcc     = total > 0
+          ? Math.round(((correct + ALPHA) / (total + ALPHA + BETA)) * 100) : 0;
+        const confidence = Math.round(
+          Math.min(Math.log(1 + games) / Math.log(1 + C_MAX), 1) * 100
+        );
+        const cutoff    = new Date(now - 30 * 24 * 60 * 60 * 1000);
+        const recentGames = (p.recentSessions || [])
+          .filter(s => new Date(s.playedAt) >= cutoff).length;
 
         return {
           name:        p.name,
           email:       p.email,
           rankScore,
-          bestScore:   p.bestScore   || 0,
-          totalGames:  p.totalGames  || 0,
+          bestScore:   p.bestScore || 0,
+          totalGames:  games,
           accuracy,
-          recentGames: recent,
-          maxStreak:   p.maxStreak   || 0,
+          adjAcc,
+          confidence,
+          recentGames,
+          maxStreak:   p.maxStreak || 0,
           lastSeen:    p.lastSeen,
         };
       })
@@ -105,17 +122,17 @@ router.post('/sync', async (req, res) => {
     }, { upsert: true, new: true, setDefaultsOnInsert: true });
 
     // Recalcula rankScore
-    const allPlayers = await Player.find({}, { totalGames: 1 }).lean();
-    const maxGames   = Math.max(...allPlayers.map(p => p.totalGames || 0), 1);
-    const cutoff     = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
-    const recent     = (player.recentSessions || []).filter(s => new Date(s.playedAt) >= cutoff).length;
+    const cutoff = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+    const recent = (player.recentSessions || []).filter(s => new Date(s.playedAt) >= cutoff).length;
 
-    const wAcc    = player.totalWeightedQuestions > 0
-      ? player.totalWeightedCorrect / player.totalWeightedQuestions
-      : player.totalQuestions > 0 ? player.totalCorrect / player.totalQuestions : 0;
-    const vol     = Math.min((player.totalGames || 0) / maxGames, 1);
-    const freq    = Math.min(recent / 30, 1);
-    const rankScore = Math.round((wAcc * 0.7 + vol * 0.2 + freq * 0.1) * 1000);
+    // Bayesian score: adj_accuracy × log_confidence × 1000
+    const ALPHA = 3, BETA = 3, C_MAX = 30;
+    const correct = player.totalWeightedCorrect  || player.totalCorrect   || 0;
+    const total   = player.totalWeightedQuestions|| player.totalQuestions || 0;
+    const games   = player.totalGames || 0;
+    const adjAcc  = total > 0 ? (correct + ALPHA) / (total + ALPHA + BETA) : 0;
+    const conf    = Math.min(Math.log(1 + games) / Math.log(1 + C_MAX), 1);
+    const rankScore = Math.round(adjAcc * conf * 1000);
 
     await Player.updateOne({ _id: player._id }, { $set: { rankScore } });
 
