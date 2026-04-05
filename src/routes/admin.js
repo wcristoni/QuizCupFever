@@ -46,12 +46,24 @@ router.get('/users', requireAdmin, async (req, res) => {
     const sortField   = validSorts[sort] !== undefined ? sort : 'rankScore';
 
     const players = await Player.find()
-      .select('-recentSessions -__v')
+      .select('-__v')
       .sort({ [sortField]: -1 })
       .limit(limit)
       .lean();
 
-    res.json({ success: true, count: players.length, users: players });
+    // Calcula recentGames e accuracy para cada jogador
+    const now = Date.now();
+    const cutoff = new Date(now - 30 * 24 * 60 * 60 * 1000);
+    const users = players.map(p => {
+      const recentGames = (p.recentSessions || [])
+        .filter(s => new Date(s.playedAt) >= cutoff).length;
+      const accuracy = p.totalQuestions > 0
+        ? Math.round((p.totalCorrect / p.totalQuestions) * 100) : 0;
+      const { recentSessions, ...rest } = p;
+      return { ...rest, recentGames, accuracy };
+    });
+
+    res.json({ success: true, count: users.length, users });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
